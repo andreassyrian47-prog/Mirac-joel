@@ -1,0 +1,41 @@
+{
+  "release": "Carnage 0.8.0",
+  "build": "PASS",
+  "offline": {
+    "outboundHttpRequests": 0,
+    "pageErrors": 0,
+    "developmentApiPresent": false
+  },
+  "contactAudit": {
+    "scenarios": 43,
+    "maxStrongContactError": 0.0821499689069067
+  },
+  "passedSuites": [
+    "carnage-test",
+    "boss-routing",
+    "contact-audit",
+    "finishers-test",
+    "physical-overhaul",
+    "cast-release-test",
+    "motion-test",
+    "eclipse-test",
+    "finisher-flow",
+    "standalone-test",
+    "final-qa",
+    "requiem-test",
+    "carnage-ui"
+  ],
+  "temporalReview": [
+    "Cinder Spiral",
+    "Kingbreaker",
+    "Throne of Cinders",
+    "Sovereign\u2019s Ruin"
+  ],
+  "reelSeconds": 26.4,
+  "notes": [
+    "Contact metrics are sampled procedural constraints, not a visual-quality guarantee.",
+    "Strong-contact audit excludes remote rituals with no physical-contact constraints.",
+    "Production UI preview activation, HTTP 200 and /health 0.8.0 checked."
+  ],
+  "standaloneSha256": "1f581e8b10513a4cfdb94795cca4cd55aaf4ba485dc6453a2f77a02f0ae3db3c"
+}

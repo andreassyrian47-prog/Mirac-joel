@@ -1,0 +1,25 @@
+{
+  "version": "0.11.0",
+  "gameBytes": 946340,
+  "sha256": "66697d5bc87acae7af9a4df4f1ca29c508bb7f3d0f7292b3c0743dcba8b6c778",
+  "finishers": 46,
+  "powers": 24,
+  "previewCases": 46,
+  "worstNonphysicalCoreProxyOverlap": 0,
+  "maxSampledActorRootStep": 0.417478863715291,
+  "contactCases": 86,
+  "maxStrongContactResidual": 0.19630747755047065,
+  "stagingCases": 94,
+  "stagingAccepted": 94,
+  "normalPowerReleases": 24,
+  "overcastPowerReleases": 24,
+  "nativeBossExecutions": 6,
+  "offlineHTTPRequests": 0,
+  "productionUI": "PASS",
+  "healthEndpoint": "0.11.0",
+  "notes": [
+    "Proxy overlap excludes physical bodies and is not exact mesh intersection testing.",
+    "Actor-root speed does not measure all joint discontinuities.",
+    "See REVENANT.md for coverage, inspiration and remaining limits."
+  ]
+}

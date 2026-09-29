@@ -1,0 +1,213 @@
+{
+  "errors": [],
+  "state": {
+    "walkToggle": false,
+    "moveSpeed": 0,
+    "stance": "REAVER",
+    "flow": 0,
+    "aegis": 0,
+    "reaperWard": 0,
+    "powerCount": 24,
+    "gameMode": "training",
+    "trainingAI": false,
+    "bossRound": 0,
+    "resonance": [],
+    "resonanceTime": 0,
+    "cameraYaw": 0,
+    "cameraPitch": 0.18,
+    "playerYaw": 0.022442951974702953,
+    "staging": null,
+    "precise": false,
+    "clinchTime": 0,
+    "gore": {
+      "enabled": true,
+      "drops": 0,
+      "stains": 11,
+      "parts": 0
+    },
+    "bossFinisher": "auto",
+    "overcast": false,
+    "physics": {
+      "playerRagdoll": false,
+      "bodies": 0
+    },
+    "motion": {
+      "kind": "execution",
+      "speed": 2.9790328047924963,
+      "phase": 12.20465098706652,
+      "turn": -2.790999607134866,
+      "gait": null,
+      "feet": [
+        {
+          "planted": false,
+          "goal": [
+            -0.11511242406039421,
+            0.2453914521967745,
+            7.011057800862734
+          ],
+          "actual": [
+            -0.15081504723157954,
+            0.22557885837134217,
+            6.988679430484978
+          ]
+        },
+        {
+          "planted": true,
+          "goal": [
+            0.5428562108866124,
+            0.156,
+            6.931637879599985
+          ],
+          "actual": [
+            0.5145371752132726,
+            0.1559999999999997,
+            6.90460226060375
+          ]
+        }
+      ]
+    },
+    "actionDuration": 0,
+    "actionTime": 0,
+    "castReleased": null,
+    "projectileCount": 0,
+    "zoneCount": 0,
+    "summonCount": 0,
+    "eclipse": {
+      "masteryBonus": 0,
+      "style": 0,
+      "bestStyle": 0,
+      "rank": "D",
+      "rifts": [
+        {
+          "id": "pale",
+          "name": "The Unburied Choir",
+          "x": -37,
+          "z": 26,
+          "status": "dormant",
+          "remaining": 0
+        },
+        {
+          "id": "cinder",
+          "name": "The Furnace Wound",
+          "x": 41,
+          "z": -34,
+          "status": "dormant",
+          "remaining": 0
+        },
+        {
+          "id": "hollow",
+          "name": "The Hollow Vigil",
+          "x": 5,
+          "z": 45,
+          "status": "dormant",
+          "remaining": 0
+        }
+      ]
+    },
+    "tetherCooldown": 0,
+    "previousPower": "Mind Lance",
+    "runMods": {
+      "damage": 1,
+      "maxHealth": 100,
+      "regen": 1,
+      "speed": 1,
+      "life": 0,
+      "duration": 1,
+      "reach": 1,
+      "souls": 1
+    },
+    "mode": "game",
+    "paused": true,
+    "executeCooldown": 0,
+    "audioOn": false,
+    "audioState": "uninitialized",
+    "records": {
+      "wave": 0,
+      "score": 0,
+      "runs": 0
+    },
+    "upgradeOpen": false,
+    "panelOpen": null,
+    "acquired": [],
+    "ascendCharge": 0,
+    "ascendTime": 0,
+    "maxHealth": 100,
+    "waypoint": null,
+    "options": {
+      "executionCamera": true,
+      "cameraDistance": 8.6,
+      "fov": 57,
+      "motion": true,
+      "cues": true,
+      "finisher": "auto",
+      "bossFinisher": "auto",
+      "smallFinisher": "auto",
+      "gore": true,
+      "quality": "balanced",
+      "sensitivity": 1,
+      "volume": 0.6,
+      "shake": true,
+      "flashes": true
+    },
+    "wave": 1,
+    "health": 100,
+    "energy": 100,
+    "score": 0,
+    "enemies": 1,
+    "selectedPower": "Hellfire Bolt",
+    "combo": 0,
+    "finisher": true,
+    "execution": {
+      "id": "soulbreaker",
+      "time": 1.4137900849558545,
+      "duration": 2.95,
+      "preview": true,
+      "impactDone": false
+    },
+    "equippedFinisher": "auto",
+    "completedExecutions": [],
+    "drawCalls": 1,
+    "action": null,
+    "charge": 0,
+    "combatLog": [],
+    "weave": null,
+    "player": {
+      "x": 2.326828918379971e-16,
+      "z": 6.88
+    },
+    "foes": [
+      {
+        "hp": 42,
+        "guard": false,
+        "guardMeter": 0,
+        "enemySteps": 0,
+        "soulAnchor": 0,
+        "snared": 0,
+        "riftId": null,
+        "enraged": false,
+        "boss": false,
+        "small": false,
+        "speed": 2.27,
+        "kind": "REVENANT",
+        "x": 3.6739403974420594e-16,
+        "z": 5,
+        "y": 0.06,
+        "downed": 0,
+        "recovering": false,
+        "broken": 19.700000000000017,
+        "juggles": 0
+      }
+    ]
+  },
+  "render": {
+    "frame": 210,
+    "calls": 1,
+    "triangles": 1,
+    "points": 0,
+    "lines": 0
+  },
+  "memory": {
+    "geometries": 292,
+    "textures": 18
+  }
+}

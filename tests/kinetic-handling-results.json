@@ -1,0 +1,11 @@
+{
+  "firstStepSpeed": 0.7,
+  "normalSpeed": 6,
+  "walkSpeed": 2.2,
+  "sprintSpeed": 8.8,
+  "stopTravel": 0.2291666666666714,
+  "reverseTurnFirstFrame": 0.15833333333333324,
+  "walkToggle": true,
+  "dodgeAndParry": true,
+  "errors": []
+}

@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "name": "Cinder Spiral",
+      "grips": 153,
+      "maxContact": 0.0004416204268253474,
+      "goreMax": 0
+    },
+    {
+      "name": "Kingbreaker",
+      "grips": 144,
+      "maxContact": 0.0012703778343125872,
+      "goreMax": 1
+    },
+    {
+      "name": "Throne of Cinders",
+      "grips": 110,
+      "maxContact": 0.0016060399692340562,
+      "goreMax": 1
+    },
+    {
+      "name": "Sovereign’s Ruin",
+      "grips": 48,
+      "maxContact": 0.002212654481799676,
+      "goreMax": 1
+    },
+    {
+      "name": "Titan’s Reckoning",
+      "grips": 60,
+      "maxContact": 0.001938423913928234,
+      "goreMax": 1
+    },
+    {
+      "name": "Sunless Coronation",
+      "grips": 2,
+      "maxContact": 0.0004889286451411309,
+      "goreMax": 1
+    },
+    {
+      "name": "World’s End",
+      "grips": 40,
+      "maxContact": 0.0003967920972705934,
+      "goreMax": 1
+    }
+  ],
+  "errors": []
+}

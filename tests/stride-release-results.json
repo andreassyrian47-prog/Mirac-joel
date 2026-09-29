@@ -1,0 +1,22 @@
+{
+  "version": "0.13.1",
+  "scope": "Posture, stride and normal-movement wing correction; not a full new animation library",
+  "gameBytes": 962403,
+  "sha256": "80a301224abfe60ff59e603c7fbaa8a1b6e0fbe4162ce47eab3e708319430337",
+  "comparisonSeconds": 9,
+  "comparisonSameSpeedsAndCamera": true,
+  "normalRunSupportKneeMedianDegrees": {
+    "before": 57.624212021748065,
+    "after": 28.57071318217151
+  },
+  "diagnosticNotAQualityScore": true,
+  "speedRateCases": 9,
+  "actionClips": 30,
+  "castTraces": 24,
+  "executionScaleCases": 86,
+  "maxCoreProxyOverlap": 0,
+  "maxStrongContactResidual": 0.04935251096685394,
+  "offlineHTTPRequests": 0,
+  "productionUI": "PASS",
+  "errors": []
+}

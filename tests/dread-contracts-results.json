@@ -1,0 +1,407 @@
+{
+  "rhythm": [
+    {
+      "id": "soulbreaker",
+      "minRate": 0.354598980969123,
+      "maxRate": 2.8872440119358522,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "grave-driver",
+      "minRate": 0.40331435269580496,
+      "maxRate": 2.841639764072035,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "crown-of-ruin",
+      "minRate": 0.4011377992612086,
+      "maxRate": 2.9327885906647033,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "hells-guillotine",
+      "minRate": 0.4026654307646427,
+      "maxRate": 2.65963410889114,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "tyrants-verdict",
+      "minRate": 0.3868913854805367,
+      "maxRate": 3.0239632720374665,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "furnace-heart",
+      "minRate": 0.3982208044002178,
+      "maxRate": 2.978265170648031,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "cinder-spiral",
+      "minRate": 0.33620290649105655,
+      "maxRate": 4.626984086632202,
+      "changed": false,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "infernal-pillar",
+      "minRate": 0.37988525158816344,
+      "maxRate": 3.3092282455722266,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "meteor-burial",
+      "minRate": 0.3622164084194912,
+      "maxRate": 3.4462230804694904,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "ashen-cross",
+      "minRate": 0.43440999864685637,
+      "maxRate": 2.5118774058285886,
+      "changed": false,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "pyre-king",
+      "minRate": 0.3894311488428226,
+      "maxRate": 3.126504814884745,
+      "changed": false,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "mindbreaker",
+      "minRate": 0.3733484485419769,
+      "maxRate": 2.9327885906647033,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "gravity-coffin",
+      "minRate": 0.38131222812043397,
+      "maxRate": 3.263437151241222,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "orbit-of-ruin",
+      "minRate": 0.37769134587906095,
+      "maxRate": 3.354759841986299,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "heavens-rejection",
+      "minRate": 0.3755639520919285,
+      "maxRate": 3.4006115311344676,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "rift-fold",
+      "minRate": 0.3920254278340085,
+      "maxRate": 3.080982208338856,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "wraith-procession",
+      "minRate": 0.34870891832927686,
+      "maxRate": 3.354759841986299,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "soul-sever",
+      "minRate": 0.37501021062580353,
+      "maxRate": 3.080982208339078,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "pale-requiem",
+      "minRate": 0.36701632731572786,
+      "maxRate": 3.1722117781769477,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "tomb-of-echoes",
+      "minRate": 0.33921630505273637,
+      "maxRate": 3.549201615500097,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "kingbreaker",
+      "minRate": 0.3123630324051163,
+      "maxRate": 6.0554943760673385,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "throne-of-cinders",
+      "minRate": 0.30395416412609677,
+      "maxRate": 6.829121643926239,
+      "changed": false,
+      "impactError": 8.881784197001252e-16,
+      "end": 1
+    },
+    {
+      "id": "sovereigns-ruin",
+      "minRate": 0.30782200369383617,
+      "maxRate": 6.4485711056487816,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "ribsunder",
+      "minRate": 0.3944762683153469,
+      "maxRate": 2.8303014217603284,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "black-anvil",
+      "minRate": 0.3967981069858961,
+      "maxRate": 3.0011605425561694,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "spinewheel",
+      "minRate": 0.38692057599343244,
+      "maxRate": 3.1722117781769477,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "hornfall",
+      "minRate": 0.3933602994929952,
+      "maxRate": 3.0581036416028606,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "ruinmaker",
+      "minRate": 0.3839033509314138,
+      "maxRate": 3.2293035006933923,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "crucible-hook",
+      "minRate": 0.39470824387410897,
+      "maxRate": 2.944201420597592,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "dragons-wake",
+      "minRate": 0.32670050873440104,
+      "maxRate": 3.0581036416028606,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "ember-pendulum",
+      "minRate": 0.3810119024889591,
+      "maxRate": 3.286322757307447,
+      "changed": false,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "searing-brand",
+      "minRate": 0.40383620204151316,
+      "maxRate": 2.7164928132785704,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "ashfall",
+      "minRate": 0.38692057599343244,
+      "maxRate": 3.1722117781769477,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "hellmouth",
+      "minRate": 0.37556395209215054,
+      "maxRate": 3.400611531136022,
+      "changed": false,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "vector-break",
+      "minRate": 0.3900711907733889,
+      "maxRate": 3.1150828362007665,
+      "changed": false,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "neural-guillotine",
+      "minRate": 0.3900711907733889,
+      "maxRate": 3.1150828362007665,
+      "changed": false,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "event-horizon",
+      "minRate": 0.3705310571004983,
+      "maxRate": 3.5147693999351137,
+      "changed": false,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "oblivion-press",
+      "minRate": 0.3839033509314138,
+      "maxRate": 3.2293035006933923,
+      "changed": false,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "thought-spear",
+      "minRate": 0.40812556975544645,
+      "maxRate": 2.8303014217603284,
+      "changed": false,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "widows-passage",
+      "minRate": 0.38692057599343244,
+      "maxRate": 3.1722117781769477,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "reapers-toll",
+      "minRate": 0.3900711907733889,
+      "maxRate": 3.1150828362007665,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "nightfall-covenant",
+      "minRate": 0.3730014910869883,
+      "maxRate": 3.457719032946338,
+      "changed": false,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "last-procession",
+      "minRate": 0.37823255709068526,
+      "maxRate": 3.3433689494364316,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "titans-reckoning",
+      "minRate": 0.31201850289530597,
+      "maxRate": 5.352277369317093,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "sunless-coronation",
+      "minRate": 0.31792102511341014,
+      "maxRate": 5.640058680629778,
+      "changed": true,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "worlds-end",
+      "minRate": 0.3205106812920189,
+      "maxRate": 5.466828000738833,
+      "changed": false,
+      "impactError": 8.881784197001252e-16,
+      "end": 1
+    },
+    {
+      "id": "ashen-dominion",
+      "minRate": 0.9999999999996678,
+      "maxRate": 1.000000000000334,
+      "changed": false,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "grave-stamp",
+      "minRate": 0.9999999999994458,
+      "maxRate": 1.000000000000334,
+      "changed": false,
+      "impactError": 0,
+      "end": 1
+    },
+    {
+      "id": "rack-and-ruin",
+      "minRate": 0.9999999999996678,
+      "maxRate": 1.000000000000334,
+      "changed": false,
+      "impactError": 0,
+      "end": 1
+    }
+  ],
+  "carry": {
+    "heldFrames": 60,
+    "maxError": 1.9484335006297032e-15,
+    "release": {
+      "clock": 2.0999999999999974,
+      "gap": 0.016666666666666607,
+      "maxAnatomyStep": 0.1684992925769503
+    },
+    "ended": true
+  },
+  "errors": []
+}

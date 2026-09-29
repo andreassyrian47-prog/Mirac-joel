@@ -1,0 +1,35 @@
+{
+  "version": "0.12.0",
+  "gameBytes": 949669,
+  "sha256": "ecb195622eb6c7d61e287f02576756b26681426cfbf1ff93da5629b0d8d6bac3",
+  "finishers": 46,
+  "powers": 24,
+  "rewrittenSequences": [
+    "soulbreaker",
+    "infernal-pillar",
+    "meteor-burial",
+    "crown-of-ruin",
+    "mindbreaker",
+    "tyrants-verdict"
+  ],
+  "previewCases": 86,
+  "maxCoreProxyOverlapIncludingPhysicalRecovery": 0,
+  "maxStrongContactResidual": 0.04936724169464988,
+  "maxFramingNdc": 0.9129097610865415,
+  "stagingCases": 94,
+  "stagingAccepted": 94,
+  "maxEntryStep": 0.1749199861081672,
+  "maxNativeStrongContact": 0.04570063637181132,
+  "nativeBossExecutions": 6,
+  "normalCastReleases": 24,
+  "overcastReleases": 24,
+  "productionUI": "PASS",
+  "offlineHTTPRequests": 0,
+  "capturedPageErrors": [],
+  "filmSeconds": 11.7,
+  "notes": [
+    "Core/head/hip and recovery-leg proxy checks are not exact mesh collision.",
+    "Fast moves still have large joint travel; see the full audit and limits in ONSLAUGHT.md.",
+    "Study video uses actual rigs on a neutral stage at fixed simulation steps, not a live frame-rate benchmark."
+  ]
+}

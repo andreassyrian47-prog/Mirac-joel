@@ -1,0 +1,33 @@
+import {chromium} from '@playwright/test';
+import assert from 'node:assert/strict';
+import {safeCamera} from '../src/eclipse-world.js';
+import * as THREE from 'three';
+const look=new THREE.Vector3(0,2,0),desired=new THREE.Vector3(0,4,10);safeCamera(look,desired,[{x:0,z:5,r:1}]);assert.ok(desired.z<4,'camera stops before column');assert.ok(desired.z>1);console.log('Camera obstacle geometry PASS');
+const b=await chromium.launch({headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader']});const p=await b.newPage({viewport:{width:1200,height:800}});const errors=[];p.on('pageerror',e=>errors.push(e.message));p.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
+await p.addInitScript(()=>{if(!localStorage.getItem('hellbound-settings'))localStorage.setItem('hellbound-settings',JSON.stringify({quality:'low'}));});
+await p.goto((process.env.GAME_URL||'http://localhost:5174')+'/?test');await p.waitForFunction(()=>window.__hellbound?.testing);await p.evaluate(()=>window.__hellbound.renderer.render=()=>{});
+await p.click('#start');await p.evaluate(()=>{const t=window.__hellbound.testing;t.setWave(1);t.restore();t.position(0,10.4);for(let i=0;i<7;i++)t.placeFoe(i,35+i*2,35);t.placeFoe(0,0,-2);});
+const state=()=>p.evaluate(()=>window.__hellbound.state);
+await p.keyboard.press('c');assert.equal((await state()).action,'tether');assert.ok((await state()).energy<100);
+await p.evaluate(()=>window.__hellbound.testing.advanceCombat(1.1));let s=await state();assert.ok(s.foes[0].z>4,'normal victim reeled closer');assert.ok(s.eclipse.style>0);assert.ok(s.tetherCooldown>0);assert.equal(s.action,null);console.log('Dread Tether normal pull, cooldown, resource cost and recovery PASS');
+const before=(await state()).tetherCooldown;await p.keyboard.press('c');assert.notEqual((await state()).action,'tether');assert.ok((await state()).tetherCooldown<=before);
+await p.keyboard.press('x');assert.equal((await state()).selectedPower,'Mind Lance');await p.keyboard.press('x');assert.equal((await state()).selectedPower,'Hellfire Bolt');console.log('Native X quick swap PASS');await p.waitForFunction(()=>[...document.querySelectorAll('.threat-cue')].some(e=>!e.classList.contains('hidden')&&e.textContent.includes('PARRY')),{},{timeout:12000});console.log('Live attack warning PASS');
+await p.keyboard.press('m');const frozen=(await state()).eclipse.style;await p.evaluate(()=>window.__hellbound.testing.stepEclipse(20));assert.equal((await state()).eclipse.style,frozen);await p.keyboard.press('m');await p.evaluate(()=>window.__hellbound.testing.stepEclipse(20));assert.equal((await state()).eclipse.style,0);console.log('Style gain, pause safety and idle decay PASS');
+await p.evaluate(()=>{const t=window.__hellbound.testing;t.setWave(3);t.restore();t.readyTether();t.position(0,10.4);window.__hellbound.state.foes.forEach((e,i)=>t.placeFoe(i,e.boss?0:40+i,e.boss?-2:40));});
+await p.keyboard.press('c');assert.equal((await state()).action,'tether');await p.evaluate(()=>window.__hellbound.testing.advanceCombat(1.1));assert.ok((await state()).player.z<5,'boss mass pulls player');assert.equal((await state()).foes.filter(e=>e.boss).length,1);console.log('Boss grapple PASS');
+await p.evaluate(()=>{window.__hellbound.testing.setWave(1);window.__hellbound.testing.restore();});
+for(const id of ['pale','cinder','hollow']){
+ const n=(await state()).eclipse.rifts.find(r=>r.id===id);
+ await p.evaluate(n=>window.__hellbound.testing.position(n.x,n.z),n);const old=(await state()).enemies;
+ await p.keyboard.press('g');s=await state();assert.equal(s.eclipse.rifts.find(r=>r.id===id).status,'hunting');assert.equal(s.enemies,old+3);assert.equal(s.foes.filter(e=>e.riftId===id).length,3);
+ await p.keyboard.press('g');assert.equal((await state()).enemies,old+3,'no duplicate guardians');
+ await p.evaluate(id=>window.__hellbound.testing.killRiftGuardians(id),id);s=await state();assert.equal(s.eclipse.rifts.find(r=>r.id===id).status,'sealed');assert.equal(s.eclipse.rifts.find(r=>r.id===id).remaining,0);
+ const rewardState=JSON.stringify(s.runMods);await p.keyboard.press('g');assert.equal(JSON.stringify((await state()).runMods),rewardState);console.log('Rift Hunt + once-only reward PASS:',id);
+}
+s=await state();assert.equal(s.maxHealth,110);assert.equal(s.runMods.damage,1.08);assert.equal(s.runMods.regen,1.2);assert.equal(s.acquired.length,3);
+await p.evaluate(()=>window.__hellbound.testing.killWave());await p.waitForFunction(()=>window.__hellbound.state.upgradeOpen,{},{timeout:15000});assert.ok((await state()).eclipse.masteryBonus>0);assert.ok((await p.locator('#boonWave').textContent()).includes('STYLE BONUS'));console.log('Wave-clear style bonus PASS');await p.keyboard.press('Digit1');
+await p.keyboard.press('m');await p.locator('#riftMapButtons button').nth(1).click();assert.equal((await state()).waypoint.name,'The Furnace Wound');await p.keyboard.press('m');
+await p.keyboard.press('o');await p.locator('#distanceSlider').evaluate(e=>{e.value='10';e.dispatchEvent(new Event('input'));});await p.locator('#fovSlider').evaluate(e=>{e.value='70';e.dispatchEvent(new Event('input'));});await p.locator('#motionToggle').uncheck();await p.locator('#cueToggle').uncheck();await p.click('#settingsDone');assert.equal((await state()).options.cameraDistance,10);assert.equal((await state()).options.fov,70);assert.equal((await state()).options.motion,false);console.log('Camera settings and rift map waypoints PASS');
+await p.keyboard.press('Escape');await p.click('#restart');s=await state();assert.equal(s.maxHealth,100);assert.equal(s.eclipse.style,0);assert.equal(s.acquired.length,0);assert.ok(s.eclipse.rifts.every(r=>r.status==='dormant'&&r.remaining===0));console.log('Restart cleanup PASS');
+await p.reload();await p.waitForFunction(()=>window.__hellbound);assert.equal((await state()).options.fov,70);assert.equal((await state()).options.cues,false);console.log('New preferences persist PASS');
+console.log('ERRORS',errors);await b.close();assert.equal(errors.length,0);

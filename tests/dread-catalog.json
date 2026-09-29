@@ -1,0 +1,3005 @@
+[
+  {
+    "id": "soulbreaker",
+    "name": "Soulbreaker",
+    "school": "brutal",
+    "duration": 2.95,
+    "impact": 0.8,
+    "beats": [
+      "Chest strike",
+      "Rear dash",
+      "Ground slam"
+    ],
+    "description": "Punch the enemy in the chest, dash behind them, lift them, and slam them into the earth.",
+    "signature": "The original execution. Preserved and contact-aligned."
+  },
+  {
+    "id": "grave-driver",
+    "name": "Grave Driver",
+    "school": "brutal",
+    "duration": 2.91,
+    "impact": 0.77,
+    "beats": [
+      "Leg sweep",
+      "Ankle swing",
+      "Overhead burial"
+    ],
+    "description": "Sweep the legs, seize an ankle, swing the enemy overhead, and hammer them into the ground.",
+    "signature": "A low sweep turns into a full-body overhead throw."
+  },
+  {
+    "id": "crown-of-ruin",
+    "name": "Crown of Ruin",
+    "school": "brutal",
+    "duration": 2.99,
+    "impact": 0.79,
+    "beats": [
+      "Rising uppercut",
+      "Aerial pursuit",
+      "Spinning heel"
+    ],
+    "description": "Launch the enemy with an uppercut, leap after them, and drive a spinning heel through their guard.",
+    "signature": "A rising camera follows the launch and rotating kick."
+  },
+  {
+    "id": "hells-guillotine",
+    "name": "Hell’s Guillotine",
+    "school": "brutal",
+    "duration": 2.75,
+    "impact": 0.76,
+    "hits": [
+      [
+        0.2,
+        0,
+        true,
+        "chest"
+      ],
+      [
+        0.67,
+        1,
+        true,
+        "head"
+      ]
+    ],
+    "beats": [
+      "Knee and head control",
+      "Raise the heel",
+      "Axe-kick execution"
+    ],
+    "description": "Fold the enemy with a knee, hold their head down, then plant one foot and drive the opposite heel through their guard.",
+    "signature": "A sharply raised leg and downward heel define the finish."
+  },
+  {
+    "id": "tyrants-verdict",
+    "name": "Tyrant’s Verdict",
+    "school": "brutal",
+    "duration": 3.07,
+    "impact": 0.79,
+    "beats": [
+      "Wrist capture",
+      "Turning takedown",
+      "Ruinous heel"
+    ],
+    "description": "Catch the enemy’s wrist, cast them outward, step beside the fallen body and drive a crushing heel into their leg.",
+    "signature": "A wide turning cast keeps the demon outside the victim’s body."
+  },
+  {
+    "id": "furnace-heart",
+    "name": "Furnace Heart",
+    "school": "fire",
+    "duration": 3.03,
+    "impact": 0.79,
+    "beats": [
+      "Sternum seal",
+      "Ignition",
+      "Detonation kick"
+    ],
+    "description": "Plant a burning palm against the chest, ignite the mark, and kick the enemy away as it detonates.",
+    "signature": "A glowing chest seal grows before the final kick."
+  },
+  {
+    "id": "cinder-spiral",
+    "name": "Cinder Spiral",
+    "school": "fire",
+    "duration": 4.47,
+    "impact": 0.87,
+    "marks": [
+      0,
+      0.21,
+      0.7
+    ],
+    "beats": [
+      "Sweep and seize",
+      "Fire-ring drag",
+      "Flaming release"
+    ],
+    "description": "Sweep the enemy down, clamp an ankle, backpedal around a burning ring while their body scrapes the ground, then swing and release them.",
+    "signature": "A maintained ankle grip drives the victim’s motion; the body is actually dragged."
+  },
+  {
+    "id": "infernal-pillar",
+    "name": "Infernal Pillar",
+    "school": "fire",
+    "duration": 3.32,
+    "impact": 0.8,
+    "beats": [
+      "Chest brand",
+      "Pillar of flame",
+      "Command the fall"
+    ],
+    "description": "Brand the chest, raise the victim in a fire column, then command a violent downward burial with both hands.",
+    "signature": "A grounded caster directs the ascent and a rapid physical drop."
+  },
+  {
+    "id": "meteor-burial",
+    "name": "Meteor Burial",
+    "school": "fire",
+    "duration": 3.44,
+    "impact": 0.81,
+    "beats": [
+      "Skyward launch",
+      "Burning ascent",
+      "Meteor impact"
+    ],
+    "description": "Launch the enemy skyward, pursue them, then hurl their burning body diagonally into the earth.",
+    "signature": "The longest aerial arc, ending in a slanted meteor trail."
+  },
+  {
+    "id": "ashen-cross",
+    "name": "Ashen Cross",
+    "school": "fire",
+    "duration": 2.62,
+    "impact": 0.76,
+    "beats": [
+      "First claw brand",
+      "Crossing slash",
+      "Crossfire burst"
+    ],
+    "description": "Carve two blazing claw trails across the enemy, then snap both arms outward to trigger crossfire.",
+    "signature": "Two intersecting flame slashes build the final X-shaped blast."
+  },
+  {
+    "id": "pyre-king",
+    "name": "Pyre King",
+    "school": "fire",
+    "duration": 3.16,
+    "impact": 0.8,
+    "beats": [
+      "Force to kneel",
+      "Forehead brand",
+      "Coronation in flame"
+    ],
+    "description": "Kick the enemy to their knees, brand their forehead, and close three fire rings around them.",
+    "signature": "Three rotating coronation rings collapse into a pyre."
+  },
+  {
+    "id": "mindbreaker",
+    "name": "Mindbreaker",
+    "school": "mind",
+    "duration": 2.99,
+    "impact": 0.79,
+    "beats": [
+      "Temple grip",
+      "Suspension",
+      "Psychic collapse"
+    ],
+    "description": "Grip both temples, suspend the enemy, then release a focused psychic pulse that folds them to the floor.",
+    "signature": "Two-handed head contact and a tightening psychic halo."
+  },
+  {
+    "id": "gravity-coffin",
+    "name": "Gravity Coffin",
+    "school": "mind",
+    "duration": 3.28,
+    "impact": 0.8,
+    "beats": [
+      "Gravity lift",
+      "Six-sided prison",
+      "Coffin collapse"
+    ],
+    "description": "Suspend the enemy inside a floating psychic cage, compress it from six sides, and drive it into the ground.",
+    "signature": "A visible wireframe prison contracts around the victim."
+  },
+  {
+    "id": "orbit-of-ruin",
+    "name": "Orbit of Ruin",
+    "school": "mind",
+    "duration": 3.36,
+    "impact": 0.8,
+    "beats": [
+      "Psychic tether",
+      "Orbital acceleration",
+      "Tangential throw"
+    ],
+    "description": "Tether the enemy to your hand, swing them around your body, and whip them into a distant ground impact.",
+    "signature": "A horizontal orbit accelerates into a sweeping throw."
+  },
+  {
+    "id": "heavens-rejection",
+    "name": "Heaven’s Rejection",
+    "school": "mind",
+    "duration": 3.4,
+    "impact": 0.81,
+    "beats": [
+      "Upward flick",
+      "Impossible stillness",
+      "Gravity reversal"
+    ],
+    "description": "Flick the enemy straight into the sky, hold them motionless for a beat, and pull them violently back down.",
+    "signature": "A deliberate midair hold makes the sudden drop land harder."
+  },
+  {
+    "id": "rift-fold",
+    "name": "Rift Fold",
+    "school": "mind",
+    "duration": 3.12,
+    "impact": 0.79,
+    "beats": [
+      "Split space",
+      "Fold behind",
+      "Lateral crush"
+    ],
+    "description": "Open opposing psychic planes, fold the enemy through them behind you, and slam them sideways.",
+    "signature": "Two luminous rift planes move with a twisting body fold."
+  },
+  {
+    "id": "wraith-procession",
+    "name": "Wraith Procession",
+    "school": "ghost",
+    "duration": 3.36,
+    "impact": 0.8,
+    "beats": [
+      "Call the procession",
+      "Three phantom strikes",
+      "Shadow-palm burial"
+    ],
+    "description": "Summon three doubles to strike from different angles, then dash through their wake for the final palm slam.",
+    "signature": "Three articulated doubles attack in sequence, not simultaneously."
+  },
+  {
+    "id": "soul-sever",
+    "name": "Soul Sever",
+    "school": "ghost",
+    "duration": 3.12,
+    "impact": 0.8,
+    "beats": [
+      "Spectral hook",
+      "Draw out the soul",
+      "Sever the tether"
+    ],
+    "description": "Hook the enemy with a spectral claw, pull an ethereal double from their body, and snap the connecting tether.",
+    "signature": "The soul visibly separates before the body collapses."
+  },
+  {
+    "id": "pale-requiem",
+    "name": "Pale Requiem",
+    "school": "ghost",
+    "duration": 3.2,
+    "impact": 0.79,
+    "beats": [
+      "Pass through",
+      "Raise the echo",
+      "Reunite in ruin"
+    ],
+    "description": "Pass through the enemy, raise their spectral echo above them, then drag echo and body into the ground together.",
+    "signature": "A through-body dash becomes a vertical spectral reunion."
+  },
+  {
+    "id": "tomb-of-echoes",
+    "name": "Tomb of Echoes",
+    "school": "ghost",
+    "duration": 3.53,
+    "impact": 0.81,
+    "beats": [
+      "Bind the limbs",
+      "Circling apparitions",
+      "Seal the tomb"
+    ],
+    "description": "Bind the enemy’s wrists and ankles with spectral chains, circle them with apparitions, and collapse the bindings.",
+    "signature": "Four anchors and circling wraiths close into one spectral shockwave."
+  },
+  {
+    "id": "kingbreaker",
+    "name": "Kingbreaker",
+    "school": "brutal",
+    "bossOnly": true,
+    "duration": 5.71,
+    "impact": 0.88,
+    "marks": [
+      0,
+      0.16,
+      0.31,
+      0.48,
+      0.66,
+      0.85
+    ],
+    "beats": [
+      "Break the knee",
+      "Seize the crown",
+      "Drive the knee",
+      "Hammer the king",
+      "Tear the crown",
+      "Cast down"
+    ],
+    "description": "Break the king’s stance, seize his lowered head, drive in a knee, hammer him to the floor, and wrench the crown free before the final throw.",
+    "signature": "Boss-exclusive. A six-beat, contact-driven takedown."
+  },
+  {
+    "id": "throne-of-cinders",
+    "name": "Throne of Cinders",
+    "school": "fire",
+    "bossOnly": true,
+    "duration": 6.38,
+    "impact": 0.89,
+    "marks": [
+      0,
+      0.16,
+      0.29,
+      0.52,
+      0.7,
+      0.86
+    ],
+    "beats": [
+      "Collapse the stance",
+      "Seize the ankle",
+      "Drag through fire",
+      "Swing and bury",
+      "Trample the throne",
+      "Cinder rupture"
+    ],
+    "description": "Sweep the giant down, seize an ankle, drag its body around a burning ring, swing it down, then crush it with successive stamping blows.",
+    "signature": "Boss-exclusive. A sustained ankle grip and visible ground drag."
+  },
+  {
+    "id": "sovereigns-ruin",
+    "name": "Sovereign’s Ruin",
+    "school": "mind",
+    "bossOnly": true,
+    "duration": 6.05,
+    "impact": 0.9,
+    "marks": [
+      0,
+      0.17,
+      0.34,
+      0.51,
+      0.69,
+      0.87
+    ],
+    "beats": [
+      "Shatter the guard",
+      "Temple lock",
+      "Raise the sovereign",
+      "First compression",
+      "Gravity reversal",
+      "Sever the crown"
+    ],
+    "description": "Force the sovereign to kneel, lock both temples, release it into psychic suspension, compress its body in successive pulses, and rip the crown away as gravity returns.",
+    "signature": "Boss-exclusive. Close contact becomes a multi-stage psychic execution."
+  },
+  {
+    "id": "ribsunder",
+    "name": "Ribsunder",
+    "school": "brutal",
+    "duration": 2.9,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Left rib",
+      "Right rib",
+      "Elbow collapse"
+    ],
+    "description": "Left rib → Right rib → Elbow collapse.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.15,
+        -0.35,
+        0,
+        1.35,
+        0,
+        0,
+        0,
+        "coilL",
+        "guard"
+      ],
+      [
+        0.25,
+        -0.2,
+        0,
+        1.25,
+        0.12,
+        0,
+        -0.1,
+        "crossL",
+        "hit"
+      ],
+      [
+        0.43,
+        0.3,
+        0,
+        1.4,
+        -0.1,
+        0,
+        -0.15,
+        "crossR",
+        "twist"
+      ],
+      [
+        0.65,
+        0.2,
+        0,
+        1.2,
+        0,
+        0,
+        -0.1,
+        "elbow",
+        "kneel"
+      ],
+      [
+        0.79,
+        0.45,
+        0,
+        1.5,
+        0,
+        0,
+        -0.5,
+        "hammer",
+        "fallen"
+      ],
+      [
+        1,
+        0.6,
+        0,
+        1.8,
+        0,
+        0,
+        -0.6,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.25,
+        0,
+        "chest"
+      ],
+      [
+        0.43,
+        1,
+        "chest"
+      ],
+      [
+        0.72,
+        1,
+        "head"
+      ]
+    ],
+    "grips": []
+  },
+  {
+    "id": "black-anvil",
+    "name": "Black Anvil",
+    "school": "brutal",
+    "duration": 3.05,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Break the stance",
+      "Raise both fists",
+      "Anvil blow"
+    ],
+    "description": "Break the stance → Raise both fists → Anvil blow.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.17,
+        0,
+        0,
+        1.4,
+        0,
+        0,
+        0,
+        "knee",
+        "hit"
+      ],
+      [
+        0.32,
+        0,
+        0,
+        1.55,
+        0,
+        0,
+        -0.2,
+        "grip",
+        "kneel"
+      ],
+      [
+        0.55,
+        0,
+        0,
+        1.7,
+        0,
+        0,
+        -0.2,
+        "overhead",
+        "kneel"
+      ],
+      [
+        0.74,
+        0,
+        0,
+        1.45,
+        0,
+        0,
+        -0.3,
+        "hammer",
+        "collapse"
+      ],
+      [
+        0.84,
+        0.5,
+        0,
+        1.7,
+        0,
+        0,
+        -0.6,
+        "follow",
+        "fallen"
+      ],
+      [
+        1,
+        0.5,
+        0,
+        2,
+        0,
+        0,
+        -0.6,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.18,
+        1,
+        "chest",
+        true
+      ],
+      [
+        0.73,
+        0,
+        "head"
+      ],
+      [
+        0.73,
+        1,
+        "head"
+      ]
+    ],
+    "grips": []
+  },
+  {
+    "id": "spinewheel",
+    "name": "Spinewheel",
+    "school": "brutal",
+    "duration": 3.2,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Catch the wrist",
+      "Wheel to the flank",
+      "Heel verdict"
+    ],
+    "description": "Catch the wrist → Wheel to the flank → Heel verdict.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.2,
+        0.65,
+        0,
+        1.3,
+        0,
+        0,
+        0,
+        "grip",
+        "hit"
+      ],
+      [
+        0.38,
+        1.45,
+        0,
+        0.25,
+        0.5,
+        0.6,
+        -0.35,
+        "twist",
+        "fold"
+      ],
+      [
+        0.55,
+        1.4,
+        0,
+        -1,
+        0.6,
+        0.4,
+        -1.1,
+        "throw",
+        "roll"
+      ],
+      [
+        0.7,
+        1.35,
+        0.55,
+        -0.4,
+        0.6,
+        0,
+        -1,
+        "kick",
+        "fallen"
+      ],
+      [
+        0.83,
+        1.4,
+        0,
+        -0.1,
+        0.6,
+        0,
+        -1.1,
+        "stomp",
+        "fallen"
+      ],
+      [
+        1,
+        1.5,
+        0,
+        0.5,
+        0.6,
+        0,
+        -1.1,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.2,
+        0,
+        "chest"
+      ],
+      [
+        0.76,
+        1,
+        "chest",
+        true
+      ]
+    ],
+    "grips": []
+  },
+  {
+    "id": "hornfall",
+    "name": "Hornfall",
+    "school": "brutal",
+    "duration": 3.1,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Crown capture",
+      "Driving knee",
+      "Cast the horns down"
+    ],
+    "description": "Crown capture → Driving knee → Cast the horns down.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.22,
+        0,
+        0,
+        1.3,
+        0,
+        0,
+        0,
+        "grip",
+        "kneel"
+      ],
+      [
+        0.42,
+        -0.2,
+        0,
+        1.35,
+        0,
+        0,
+        0,
+        "knee",
+        "kneel"
+      ],
+      [
+        0.6,
+        -0.9,
+        0,
+        1.15,
+        0.2,
+        0.6,
+        -0.3,
+        "twist",
+        "fold"
+      ],
+      [
+        0.79,
+        -1.1,
+        0,
+        1.25,
+        0.65,
+        0,
+        -1,
+        "throw",
+        "fallen"
+      ],
+      [
+        1,
+        -1.2,
+        0,
+        1.6,
+        0.7,
+        0,
+        -1,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.42,
+        1,
+        "chest",
+        true
+      ]
+    ],
+    "grips": [
+      [
+        0,
+        "head",
+        0.18,
+        0.24,
+        0.36
+      ],
+      [
+        1,
+        "head",
+        0.18,
+        0.24,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "ruinmaker",
+    "name": "Ruinmaker",
+    "school": "brutal",
+    "duration": 3.25,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Draw the arm",
+      "Shoulder rupture",
+      "Stamp the ruin"
+    ],
+    "description": "Draw the arm → Shoulder rupture → Stamp the ruin.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.18,
+        -0.5,
+        0,
+        1.3,
+        0,
+        0,
+        0,
+        "hook",
+        "hit"
+      ],
+      [
+        0.38,
+        -0.3,
+        0,
+        1.1,
+        0.2,
+        0.5,
+        -0.6,
+        "elbow",
+        "fold"
+      ],
+      [
+        0.55,
+        0.7,
+        0,
+        0.4,
+        0.3,
+        0.3,
+        -1.1,
+        "ready",
+        "roll"
+      ],
+      [
+        0.69,
+        0.8,
+        0.4,
+        0.2,
+        0.3,
+        0,
+        -1.1,
+        "kick",
+        "fallen"
+      ],
+      [
+        0.82,
+        0.8,
+        0,
+        0.1,
+        0.3,
+        0,
+        -1.2,
+        "stomp",
+        "fallen"
+      ],
+      [
+        1,
+        1,
+        0,
+        0.5,
+        0.3,
+        0,
+        -1.2,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.18,
+        0,
+        "chest"
+      ],
+      [
+        0.38,
+        1,
+        "chest"
+      ],
+      [
+        0.76,
+        1,
+        "chest",
+        true
+      ]
+    ],
+    "grips": []
+  },
+  {
+    "id": "crucible-hook",
+    "name": "Crucible Hook",
+    "school": "fire",
+    "duration": 3,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Burning hook",
+      "Lift through flame",
+      "Crucible drop"
+    ],
+    "description": "Burning hook → Lift through flame → Crucible drop.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.2,
+        -0.4,
+        0,
+        1.4,
+        0,
+        0,
+        0,
+        "hook",
+        "hit"
+      ],
+      [
+        0.43,
+        0.15,
+        0.9,
+        1.4,
+        0,
+        1.8,
+        -0.2,
+        "upper",
+        "air"
+      ],
+      [
+        0.62,
+        0.2,
+        0.9,
+        1.1,
+        0,
+        0.9,
+        -0.2,
+        "grip",
+        "fold"
+      ],
+      [
+        0.73,
+        0.25,
+        0.4,
+        0.95,
+        0,
+        0.35,
+        -0.2,
+        "push",
+        "fold"
+      ],
+      [
+        0.79,
+        0.3,
+        0,
+        1.4,
+        0,
+        0,
+        -0.6,
+        "hammer",
+        "fold"
+      ],
+      [
+        1,
+        0.4,
+        0,
+        1.7,
+        0,
+        0,
+        -0.6,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.2,
+        0,
+        "chest"
+      ],
+      [
+        0.43,
+        1,
+        "chest"
+      ],
+      [
+        0.73,
+        1,
+        "head"
+      ]
+    ],
+    "grips": []
+  },
+  {
+    "id": "dragons-wake",
+    "name": "Dragon’s Wake",
+    "school": "fire",
+    "duration": 3.1,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Flank the guard",
+      "Exhale the furnace",
+      "Burning backfist"
+    ],
+    "description": "Flank the guard → Exhale the furnace → Burning backfist.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.2,
+        1.2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        "coilR",
+        "guard"
+      ],
+      [
+        0.38,
+        1.35,
+        0,
+        0.6,
+        0,
+        0,
+        -0.3,
+        "roar",
+        "hit"
+      ],
+      [
+        0.58,
+        1.2,
+        0,
+        0.4,
+        -0.25,
+        0,
+        -0.45,
+        "crossR",
+        "twist"
+      ],
+      [
+        0.79,
+        1.5,
+        0,
+        0.8,
+        -0.8,
+        0,
+        -0.6,
+        "throw",
+        "fallen"
+      ],
+      [
+        1,
+        1.6,
+        0,
+        1,
+        -0.8,
+        0,
+        -0.6,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.59,
+        1,
+        "head"
+      ]
+    ],
+    "grips": []
+  },
+  {
+    "id": "ember-pendulum",
+    "name": "Ember Pendulum",
+    "school": "fire",
+    "duration": 3.3,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Low brand",
+      "Pendulum heel",
+      "Crescent heel crush"
+    ],
+    "description": "Low brand → Pendulum heel → Crescent heel crush.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.2,
+        -0.5,
+        0,
+        1.4,
+        0,
+        0,
+        0,
+        "low",
+        "kneel"
+      ],
+      [
+        0.41,
+        -1.2,
+        0.6,
+        0.5,
+        0.2,
+        0.8,
+        -0.3,
+        "kick",
+        "air"
+      ],
+      [
+        0.6,
+        -0.65,
+        0.5,
+        -0.8,
+        0.4,
+        0.5,
+        -0.7,
+        "spin",
+        "roll"
+      ],
+      [
+        0.79,
+        -0.9,
+        0,
+        -0.7,
+        0.9,
+        0,
+        -0.8,
+        "stomp",
+        "fallen"
+      ],
+      [
+        1,
+        -1.1,
+        0,
+        -0.5,
+        0.9,
+        0,
+        -0.8,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.2,
+        0,
+        "chest"
+      ],
+      [
+        0.41,
+        1,
+        "head",
+        true
+      ],
+      [
+        0.73,
+        1,
+        "shin",
+        true
+      ]
+    ],
+    "grips": []
+  },
+  {
+    "id": "searing-brand",
+    "name": "Searing Brand",
+    "school": "fire",
+    "duration": 2.8,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Sternum brand",
+      "Draw the fire",
+      "Brand eruption"
+    ],
+    "description": "Sternum brand → Draw the fire → Brand eruption.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.22,
+        0,
+        0,
+        1.35,
+        0,
+        0,
+        0,
+        "palm",
+        "hit"
+      ],
+      [
+        0.42,
+        0,
+        0,
+        1.55,
+        0,
+        0,
+        -0.1,
+        "draw",
+        "guard"
+      ],
+      [
+        0.63,
+        0,
+        0,
+        2.2,
+        0,
+        0.25,
+        -0.3,
+        "coilR",
+        "fold"
+      ],
+      [
+        0.79,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        -1.5,
+        "push",
+        "fallen"
+      ],
+      [
+        1,
+        0.3,
+        0,
+        2.5,
+        0,
+        0,
+        -1.5,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.22,
+        1,
+        "chest"
+      ]
+    ],
+    "grips": [
+      [
+        1,
+        "chest",
+        0.18,
+        0.23,
+        0.35
+      ]
+    ]
+  },
+  {
+    "id": "ashfall",
+    "name": "Ashfall",
+    "school": "fire",
+    "duration": 3.2,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Launch the offering",
+      "Bend the flame",
+      "Ashfall"
+    ],
+    "description": "Launch the offering → Bend the flame → Ashfall.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.2,
+        0.3,
+        0,
+        1.4,
+        0,
+        0.5,
+        0,
+        "upper",
+        "hit"
+      ],
+      [
+        0.4,
+        0.5,
+        0,
+        2,
+        0,
+        3,
+        -0.4,
+        "raise",
+        "air"
+      ],
+      [
+        0.61,
+        0.7,
+        0,
+        2.2,
+        0,
+        3,
+        -0.6,
+        "draw",
+        "air"
+      ],
+      [
+        0.79,
+        0.8,
+        0,
+        2.3,
+        0,
+        0,
+        -0.6,
+        "crush",
+        "fallen"
+      ],
+      [
+        1,
+        0.8,
+        0,
+        2.5,
+        0,
+        0,
+        -0.6,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.2,
+        1,
+        "chest"
+      ]
+    ],
+    "grips": []
+  },
+  {
+    "id": "hellmouth",
+    "name": "Hellmouth",
+    "school": "fire",
+    "duration": 3.4,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Circle the condemned",
+      "Open the pit",
+      "Seal with both palms"
+    ],
+    "description": "Circle the condemned → Open the pit → Seal with both palms.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.2,
+        -1,
+        0,
+        1.7,
+        0,
+        0,
+        0,
+        "spread",
+        "kneel"
+      ],
+      [
+        0.43,
+        -1.4,
+        0,
+        0.6,
+        0,
+        0.5,
+        -0.2,
+        "raise",
+        "fold"
+      ],
+      [
+        0.62,
+        -0.4,
+        1.1,
+        1.5,
+        0,
+        0.2,
+        -0.2,
+        "overhead",
+        "kneel"
+      ],
+      [
+        0.74,
+        -0.08,
+        0.22,
+        1.5,
+        0,
+        0.1,
+        -0.35,
+        "hammer",
+        "kneel"
+      ],
+      [
+        0.79,
+        0,
+        0,
+        1.5,
+        0,
+        0,
+        -0.5,
+        "hammer",
+        "fallen"
+      ],
+      [
+        1,
+        0.4,
+        0,
+        1.9,
+        0,
+        0,
+        -0.5,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.74,
+        0,
+        "head"
+      ],
+      [
+        0.74,
+        1,
+        "head"
+      ]
+    ],
+    "grips": []
+  },
+  {
+    "id": "vector-break",
+    "name": "Vector Break",
+    "school": "mind",
+    "duration": 3.15,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Left vector",
+      "Right vector",
+      "Terminal vector"
+    ],
+    "description": "Left vector → Right vector → Terminal vector.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.2,
+        -0.3,
+        0,
+        2.5,
+        -1.2,
+        0.7,
+        -0.4,
+        "pushL",
+        "twist"
+      ],
+      [
+        0.43,
+        0.3,
+        0,
+        2.5,
+        1.2,
+        1,
+        -0.5,
+        "pushR",
+        "fold"
+      ],
+      [
+        0.63,
+        0,
+        0,
+        2.8,
+        0,
+        2,
+        -0.6,
+        "raise",
+        "air"
+      ],
+      [
+        0.79,
+        0,
+        0,
+        2.8,
+        0,
+        0,
+        -0.6,
+        "crush",
+        "fallen"
+      ],
+      [
+        1,
+        0.3,
+        0,
+        2.9,
+        0,
+        0,
+        -0.6,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [],
+    "grips": []
+  },
+  {
+    "id": "neural-guillotine",
+    "name": "Neural Guillotine",
+    "school": "mind",
+    "duration": 3.15,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Temple lock",
+      "Turn the thought",
+      "Mind severance"
+    ],
+    "description": "Temple lock → Turn the thought → Mind severance.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.23,
+        0,
+        0,
+        1.4,
+        0,
+        0,
+        0,
+        "grip",
+        "kneel"
+      ],
+      [
+        0.44,
+        0.6,
+        0,
+        1.2,
+        0,
+        0.4,
+        -0.2,
+        "twist",
+        "fold"
+      ],
+      [
+        0.64,
+        1.2,
+        0,
+        1.2,
+        -0.3,
+        0.8,
+        -0.3,
+        "draw",
+        "air"
+      ],
+      [
+        0.79,
+        1.3,
+        0,
+        1.5,
+        -0.3,
+        0,
+        -0.4,
+        "crossR",
+        "fallen"
+      ],
+      [
+        1,
+        1.4,
+        0,
+        1.8,
+        -0.3,
+        0,
+        -0.4,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [],
+    "grips": [
+      [
+        0,
+        "head",
+        0.18,
+        0.23,
+        0.36
+      ],
+      [
+        1,
+        "head",
+        0.18,
+        0.23,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "event-horizon",
+    "name": "Event Horizon",
+    "school": "mind",
+    "duration": 3.5,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Raise the orbit",
+      "Invert the captive",
+      "Collapse the horizon"
+    ],
+    "description": "Raise the orbit → Invert the captive → Collapse the horizon.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.21,
+        0.2,
+        0,
+        2.5,
+        -1,
+        0.8,
+        -0.3,
+        "pushL",
+        "air"
+      ],
+      [
+        0.4,
+        0.5,
+        0,
+        2.7,
+        -0.5,
+        2.4,
+        -0.7,
+        "raise",
+        "fold"
+      ],
+      [
+        0.58,
+        0.5,
+        0,
+        2.7,
+        1.2,
+        1.6,
+        -0.9,
+        "pushR",
+        "roll"
+      ],
+      [
+        0.79,
+        0.7,
+        0,
+        2.8,
+        0,
+        0,
+        -1.2,
+        "crush",
+        "fallen"
+      ],
+      [
+        1,
+        0.8,
+        0,
+        3,
+        0,
+        0,
+        -1.2,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [],
+    "grips": []
+  },
+  {
+    "id": "oblivion-press",
+    "name": "Oblivion Press",
+    "school": "mind",
+    "duration": 3.25,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Crush the knees",
+      "Suspend the weight",
+      "Oblivion"
+    ],
+    "description": "Crush the knees → Suspend the weight → Oblivion.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.18,
+        0,
+        0,
+        2.3,
+        0,
+        0,
+        0,
+        "crush",
+        "kneel"
+      ],
+      [
+        0.43,
+        0.3,
+        0,
+        2.5,
+        0,
+        2,
+        -0.2,
+        "raise",
+        "fold"
+      ],
+      [
+        0.63,
+        0.3,
+        0,
+        2.6,
+        0,
+        2,
+        -0.4,
+        "overhead",
+        "air"
+      ],
+      [
+        0.79,
+        0.4,
+        0,
+        2.7,
+        0,
+        0,
+        -0.4,
+        "crush",
+        "fallen"
+      ],
+      [
+        1,
+        0.4,
+        0,
+        2.8,
+        0,
+        0,
+        -0.4,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [],
+    "grips": []
+  },
+  {
+    "id": "thought-spear",
+    "name": "Thought Spear",
+    "school": "mind",
+    "duration": 2.9,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Pin the mind",
+      "Draw the spear",
+      "Pierce and release"
+    ],
+    "description": "Pin the mind → Draw the spear → Pierce and release.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.2,
+        -0.4,
+        0,
+        2.3,
+        0,
+        0.3,
+        0,
+        "palm",
+        "guard"
+      ],
+      [
+        0.43,
+        -0.4,
+        0,
+        2.4,
+        0,
+        0.6,
+        -0.1,
+        "draw",
+        "air"
+      ],
+      [
+        0.62,
+        -0.2,
+        0,
+        2.1,
+        0,
+        0.5,
+        -0.3,
+        "crossR",
+        "fold"
+      ],
+      [
+        0.79,
+        0.2,
+        0,
+        2.2,
+        0,
+        0,
+        -1,
+        "push",
+        "fallen"
+      ],
+      [
+        1,
+        0.4,
+        0,
+        2.4,
+        0,
+        0,
+        -1,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [],
+    "grips": []
+  },
+  {
+    "id": "widows-passage",
+    "name": "Widow’s Passage",
+    "school": "ghost",
+    "duration": 3.2,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Veil the flank",
+      "Rear claw",
+      "Widow’s mercy"
+    ],
+    "description": "Veil the flank → Rear claw → Widow’s mercy.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.2,
+        1.7,
+        0,
+        0.6,
+        0,
+        0,
+        0,
+        "crossL",
+        "hit"
+      ],
+      [
+        0.4,
+        1.4,
+        0,
+        -1,
+        0,
+        0,
+        -0.1,
+        "coilR",
+        "twist"
+      ],
+      [
+        0.62,
+        0.3,
+        0,
+        -1.6,
+        0,
+        0.4,
+        0.2,
+        "crossR",
+        "fold"
+      ],
+      [
+        0.79,
+        0.4,
+        0,
+        -1.9,
+        0,
+        0,
+        0.7,
+        "push",
+        "fallen"
+      ],
+      [
+        1,
+        0.7,
+        0,
+        -2,
+        0,
+        0,
+        0.7,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.21,
+        0,
+        "chest"
+      ],
+      [
+        0.62,
+        1,
+        "chest"
+      ]
+    ],
+    "grips": []
+  },
+  {
+    "id": "reapers-toll",
+    "name": "Reaper’s Toll",
+    "school": "ghost",
+    "duration": 3.15,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Mark the soul",
+      "Reel the debt",
+      "Collect the toll"
+    ],
+    "description": "Mark the soul → Reel the debt → Collect the toll.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.22,
+        -0.4,
+        0,
+        1.4,
+        0,
+        0,
+        0,
+        "hook",
+        "hit"
+      ],
+      [
+        0.43,
+        -0.4,
+        0,
+        2,
+        0,
+        0,
+        -0.2,
+        "draw",
+        "kneel"
+      ],
+      [
+        0.64,
+        0.3,
+        0,
+        2.4,
+        0,
+        0.3,
+        -0.3,
+        "spread",
+        "fold"
+      ],
+      [
+        0.79,
+        0.4,
+        0,
+        2.5,
+        0,
+        0,
+        -0.5,
+        "crossR",
+        "fallen"
+      ],
+      [
+        1,
+        0.6,
+        0,
+        2.7,
+        0,
+        0,
+        -0.5,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.22,
+        0,
+        "chest"
+      ]
+    ],
+    "grips": []
+  },
+  {
+    "id": "nightfall-covenant",
+    "name": "Nightfall Covenant",
+    "school": "ghost",
+    "duration": 3.45,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "Summon the witnesses",
+      "Bind the vow",
+      "Seal the covenant"
+    ],
+    "description": "Summon the witnesses → Bind the vow → Seal the covenant.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.2,
+        -0.6,
+        0,
+        2.2,
+        0,
+        0,
+        0,
+        "spread",
+        "guard"
+      ],
+      [
+        0.43,
+        -1,
+        0,
+        1.8,
+        0,
+        0.8,
+        -0.2,
+        "raise",
+        "air"
+      ],
+      [
+        0.62,
+        -1.1,
+        0,
+        1.7,
+        0,
+        0.8,
+        -0.2,
+        "grip",
+        "fold"
+      ],
+      [
+        0.79,
+        -0.7,
+        0,
+        1.8,
+        0,
+        0,
+        -0.5,
+        "crush",
+        "fallen"
+      ],
+      [
+        1,
+        -0.8,
+        0,
+        2,
+        0,
+        0,
+        -0.5,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [],
+    "grips": []
+  },
+  {
+    "id": "last-procession",
+    "name": "Last Procession",
+    "school": "ghost",
+    "duration": 3.35,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.375,
+      0.75
+    ],
+    "beats": [
+      "First witness",
+      "Second witness",
+      "Final witness"
+    ],
+    "description": "First witness → Second witness → Final witness.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": false,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.19,
+        -1.5,
+        0,
+        1,
+        0,
+        0,
+        0,
+        "crossL",
+        "hit"
+      ],
+      [
+        0.4,
+        -1.6,
+        0,
+        -0.4,
+        0.1,
+        0,
+        -0.1,
+        "coilR",
+        "twist"
+      ],
+      [
+        0.6,
+        -0.7,
+        0,
+        -1.5,
+        0,
+        0.5,
+        0,
+        "crossR",
+        "fold"
+      ],
+      [
+        0.79,
+        -0.7,
+        0,
+        -1.8,
+        0,
+        0,
+        0.6,
+        "push",
+        "fallen"
+      ],
+      [
+        1,
+        -0.7,
+        0,
+        -2,
+        0,
+        0,
+        0.6,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.19,
+        0,
+        "chest"
+      ],
+      [
+        0.6,
+        1,
+        "chest"
+      ]
+    ],
+    "grips": []
+  },
+  {
+    "id": "titans-reckoning",
+    "name": "Titan’s Reckoning",
+    "school": "brutal",
+    "duration": 5.1,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.15,
+      0.3,
+      0.45,
+      0.6,
+      0.75
+    ],
+    "beats": [
+      "Rake the shin",
+      "Break the guard",
+      "Crown clamp",
+      "Driving knee",
+      "Raise the hammer",
+      "The reckoning"
+    ],
+    "description": "Rake the shin → Break the guard → Crown clamp → Driving knee → Raise the hammer → The reckoning.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": true,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.13,
+        0.3,
+        0,
+        1.8,
+        0,
+        0,
+        0,
+        "low",
+        "kneel"
+      ],
+      [
+        0.28,
+        -0.3,
+        0,
+        1.7,
+        0,
+        0,
+        -0.1,
+        "crossL",
+        "kneel"
+      ],
+      [
+        0.43,
+        0,
+        0,
+        1.5,
+        0,
+        0,
+        -0.1,
+        "grip",
+        "kneel"
+      ],
+      [
+        0.57,
+        0.2,
+        0,
+        1.55,
+        0,
+        0,
+        -0.15,
+        "knee",
+        "fold"
+      ],
+      [
+        0.68,
+        0.2,
+        0,
+        1.7,
+        0,
+        0,
+        -0.2,
+        "overhead",
+        "kneel"
+      ],
+      [
+        0.76,
+        0.2,
+        0,
+        1.8,
+        0,
+        0,
+        -0.2,
+        "hammer",
+        "kneel"
+      ],
+      [
+        0.84,
+        0.2,
+        0,
+        1.8,
+        0,
+        0,
+        -0.6,
+        "hammer",
+        "fallen"
+      ],
+      [
+        1,
+        0.6,
+        0,
+        2,
+        0,
+        0,
+        -0.6,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.13,
+        0,
+        "chest"
+      ],
+      [
+        0.28,
+        0,
+        "head"
+      ],
+      [
+        0.57,
+        1,
+        "chest",
+        true
+      ],
+      [
+        0.76,
+        1,
+        "head"
+      ]
+    ],
+    "grips": [
+      [
+        0,
+        "head",
+        0.35,
+        0.42,
+        0.5
+      ],
+      [
+        1,
+        "head",
+        0.35,
+        0.42,
+        0.5
+      ]
+    ]
+  },
+  {
+    "id": "sunless-coronation",
+    "name": "Sunless Coronation",
+    "school": "fire",
+    "duration": 5.35,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.15,
+      0.3,
+      0.45,
+      0.6,
+      0.75
+    ],
+    "beats": [
+      "Break the knees",
+      "Brand the brow",
+      "Raise the pyre",
+      "Crown with fire",
+      "Rise above",
+      "Extinguish the king"
+    ],
+    "description": "Break the knees → Brand the brow → Raise the pyre → Crown with fire → Rise above → Extinguish the king.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": true,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.14,
+        0,
+        0,
+        1.7,
+        0,
+        0,
+        0,
+        "knee",
+        "kneel"
+      ],
+      [
+        0.29,
+        0,
+        0,
+        1.65,
+        0,
+        0,
+        0,
+        "palm",
+        "kneel"
+      ],
+      [
+        0.43,
+        -0.5,
+        0,
+        2.4,
+        0,
+        1.1,
+        -0.2,
+        "raise",
+        "fold"
+      ],
+      [
+        0.58,
+        -0.5,
+        0,
+        2.4,
+        0,
+        1.4,
+        -0.3,
+        "spread",
+        "air"
+      ],
+      [
+        0.7,
+        -0.2,
+        0.95,
+        1.8,
+        0,
+        0.6,
+        -0.4,
+        "push",
+        "fold"
+      ],
+      [
+        0.765,
+        0.1,
+        0.3,
+        1.85,
+        0,
+        0.35,
+        -0.4,
+        "hammer",
+        "kneel"
+      ],
+      [
+        0.84,
+        0.2,
+        0,
+        1.8,
+        0,
+        0,
+        -0.6,
+        "hammer",
+        "fallen"
+      ],
+      [
+        1,
+        0.5,
+        0,
+        2.1,
+        0,
+        0,
+        -0.6,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [
+      [
+        0.14,
+        1,
+        "chest",
+        true
+      ],
+      [
+        0.29,
+        1,
+        "head"
+      ],
+      [
+        0.75,
+        0,
+        "head"
+      ],
+      [
+        0.75,
+        1,
+        "head"
+      ]
+    ],
+    "grips": []
+  },
+  {
+    "id": "worlds-end",
+    "name": "World’s End",
+    "school": "mind",
+    "duration": 5.2,
+    "impact": 0.82,
+    "marks": [
+      0,
+      0.15,
+      0.3,
+      0.45,
+      0.6,
+      0.75
+    ],
+    "beats": [
+      "Shatter the stance",
+      "Seize the mind",
+      "Raise the giant",
+      "Reverse its orbit",
+      "Hold the world",
+      "End its weight"
+    ],
+    "description": "Shatter the stance → Seize the mind → Raise the giant → Reverse its orbit → Hold the world → End its weight.",
+    "signature": "Distinct root path, articulated body track and physical release.",
+    "expanded": true,
+    "bossOnly": true,
+    "keys": [
+      [
+        0,
+        0,
+        0,
+        2.4,
+        0,
+        0,
+        0,
+        "ready",
+        "ready"
+      ],
+      [
+        0.13,
+        0,
+        0,
+        2.2,
+        0,
+        0,
+        0,
+        "push",
+        "kneel"
+      ],
+      [
+        0.28,
+        0,
+        0,
+        1.7,
+        0,
+        0,
+        0,
+        "grip",
+        "kneel"
+      ],
+      [
+        0.38,
+        0,
+        0,
+        1.7,
+        0,
+        0,
+        0,
+        "grip",
+        "kneel"
+      ],
+      [
+        0.49,
+        0.5,
+        0,
+        2.8,
+        0,
+        2.2,
+        -0.4,
+        "raise",
+        "air"
+      ],
+      [
+        0.56,
+        0.5,
+        0,
+        2.8,
+        1,
+        2.4,
+        -0.6,
+        "pushR",
+        "roll"
+      ],
+      [
+        0.69,
+        0.5,
+        0,
+        2.8,
+        0,
+        2.5,
+        -0.8,
+        "overhead",
+        "air"
+      ],
+      [
+        0.8,
+        0.5,
+        0,
+        3,
+        0,
+        0,
+        -0.8,
+        "crush",
+        "fallen"
+      ],
+      [
+        1,
+        0.6,
+        0,
+        3.2,
+        0,
+        0,
+        -0.8,
+        "ready",
+        "fallen"
+      ]
+    ],
+    "hits": [],
+    "grips": [
+      [
+        0,
+        "head",
+        0.22,
+        0.28,
+        0.34
+      ],
+      [
+        1,
+        "head",
+        0.22,
+        0.28,
+        0.34
+      ]
+    ]
+  },
+  {
+    "id": "ashen-dominion",
+    "name": "Ashen Dominion",
+    "school": "brutal",
+    "bossOnly": true,
+    "bespoke": true,
+    "duration": 6.8,
+    "impact": 0.91,
+    "release": 0.935,
+    "marks": [
+      0,
+      0.24,
+      0.44,
+      0.59,
+      0.76,
+      0.88
+    ],
+    "beats": [
+      "Two crushing blows",
+      "Collar leap",
+      "Pin the fallen king",
+      "First ground hammer",
+      "Second ground hammer",
+      "Break the crown"
+    ],
+    "description": "Strike the king twice, leap onto his collar, force him flat, pin his upper body and deliver two downward hammers before tearing away the crown.",
+    "signature": "New boss execution. Six authored beats, a grounded hold and an explicit final release."
+  },
+  {
+    "id": "grave-stamp",
+    "name": "Grave Stamp",
+    "school": "brutal",
+    "smallOnly": true,
+    "bespoke": true,
+    "duration": 3.15,
+    "impact": 0.82,
+    "release": 0.8,
+    "marks": [
+      0,
+      0.24,
+      0.48,
+      0.7
+    ],
+    "beats": [
+      "Low crushing sweep",
+      "Step beside the body",
+      "Load the heel",
+      "Grave stamp"
+    ],
+    "description": "Sweep a Midget Fiend down, step clear of its body, lift the heel and drive a brutal grounded stamp through its guard.",
+    "signature": "Midget-exclusive. The support foot stays outside the fallen body."
+  },
+  {
+    "id": "rack-and-ruin",
+    "name": "Rack and Ruin",
+    "school": "brutal",
+    "smallOnly": true,
+    "bespoke": true,
+    "duration": 3.7,
+    "impact": 0.82,
+    "release": 0.73,
+    "marks": [
+      0,
+      0.22,
+      0.43,
+      0.64,
+      0.78
+    ],
+    "beats": [
+      "Collar capture",
+      "Hoist the fiend",
+      "Horn clash",
+      "Twisting cast",
+      "Ruinous landing"
+    ],
+    "description": "Clamp the short fiend at the collar, haul it upward, drive in the horned brow and twist it away into a hard physical landing.",
+    "signature": "Midget-exclusive. A two-handed collar hold becomes a fast, outward cast."
+  }
+]

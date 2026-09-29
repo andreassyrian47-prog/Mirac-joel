@@ -1,0 +1,9 @@
+import {chromium} from '@playwright/test';
+const b=await chromium.launch({headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader']});const p=await b.newPage({viewport:{width:1440,height:900}});const errors=[];p.on('pageerror',e=>errors.push(e.message));p.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
+await p.addInitScript(()=>localStorage.setItem('hellbound-settings',JSON.stringify({quality:'balanced'})));
+await p.goto((process.env.GAME_URL||'http://localhost:5174')+'/?test');await p.waitForFunction(()=>window.__hellbound?.testing);await p.evaluate(()=>{window.savedRender=window.__hellbound.renderer.render;window.__hellbound.renderer.render=()=>{};window.requestAnimationFrame=()=>0;});await p.waitForTimeout(100);
+const shot=async name=>{await p.evaluate(()=>{window.__hellbound.renderer.render=window.savedRender;window.__hellbound.testing.drawFrame();window.__hellbound.renderer.render=()=>{};});await p.screenshot({path:'/home/user/eclipse-'+name+'.png'});};
+await shot('menu');await p.evaluate(()=>{document.getElementById('start').click();const t=window.__hellbound.testing;t.setWave(1);t.restore();t.position(0,10.4);t.placeFoe(0,0,5);t.placeFoe(1,-3,3);t.advanceCombat(.6);document.getElementById('waveBanner').classList.remove('show');});await shot('game');
+await p.keyboard.press('m');await p.screenshot({path:'/home/user/eclipse-map.png'});await p.keyboard.press('m');
+await p.evaluate(()=>{const t=window.__hellbound.testing;const n=window.__hellbound.state.eclipse.rifts.find(n=>n.id==='hollow');t.position(n.x,n.z+4.5);t.advanceCombat(.8);t.position(n.x,n.z+4.5);});await p.keyboard.press('g');await p.evaluate(()=>{window.__hellbound.testing.advanceCombat(.1);document.getElementById('waveBanner').classList.remove('show');});await shot('rift');
+console.log('Errors',errors);await b.close();if(errors.length)process.exit(1);

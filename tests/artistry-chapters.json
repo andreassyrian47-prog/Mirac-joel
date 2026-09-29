@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Soulbreaker",
+    "id": "soulbreaker",
+    "seconds": 0.0
+  },
+  {
+    "name": "Grave Driver",
+    "id": "grave-driver",
+    "seconds": 3.566666666666667
+  },
+  {
+    "name": "Crown of Ruin",
+    "id": "crown-of-ruin",
+    "seconds": 7.1
+  },
+  {
+    "name": "Hell\u2019s Guillotine",
+    "id": "hells-guillotine",
+    "seconds": 10.733333333333333
+  },
+  {
+    "name": "Tyrant\u2019s Verdict",
+    "id": "tyrants-verdict",
+    "seconds": 14.066666666666666
+  },
+  {
+    "name": "Furnace Heart",
+    "id": "furnace-heart",
+    "seconds": 17.8
+  },
+  {
+    "name": "Cinder Spiral",
+    "id": "cinder-spiral",
+    "seconds": 21.466666666666665
+  },
+  {
+    "name": "Infernal Pillar",
+    "id": "infernal-pillar",
+    "seconds": 26.633333333333333
+  },
+  {
+    "name": "Meteor Burial",
+    "id": "meteor-burial",
+    "seconds": 30.666666666666668
+  },
+  {
+    "name": "Ashen Cross",
+    "id": "ashen-cross",
+    "seconds": 34.833333333333336
+  },
+  {
+    "name": "Pyre King",
+    "id": "pyre-king",
+    "seconds": 38.0
+  },
+  {
+    "name": "Mindbreaker",
+    "id": "mindbreaker",
+    "seconds": 41.833333333333336
+  },
+  {
+    "name": "Gravity Coffin",
+    "id": "gravity-coffin",
+    "seconds": 45.46666666666667
+  },
+  {
+    "name": "Orbit of Ruin",
+    "id": "orbit-of-ruin",
+    "seconds": 49.43333333333333
+  },
+  {
+    "name": "Heaven\u2019s Rejection",
+    "id": "heavens-rejection",
+    "seconds": 53.5
+  },
+  {
+    "name": "Rift Fold",
+    "id": "rift-fold",
+    "seconds": 57.63333333333333
+  },
+  {
+    "name": "Wraith Procession",
+    "id": "wraith-procession",
+    "seconds": 61.4
+  },
+  {
+    "name": "Soul Sever",
+    "id": "soul-sever",
+    "seconds": 65.46666666666667
+  },
+  {
+    "name": "Pale Requiem",
+    "id": "pale-requiem",
+    "seconds": 69.23333333333333
+  },
+  {
+    "name": "Tomb of Echoes",
+    "id": "tomb-of-echoes",
+    "seconds": 73.1
+  },
+  {
+    "name": "Kingbreaker",
+    "id": "kingbreaker",
+    "seconds": 77.36666666666666
+  },
+  {
+    "name": "Throne of Cinders",
+    "id": "throne-of-cinders",
+    "seconds": 84.13333333333334
+  },
+  {
+    "name": "Sovereign\u2019s Ruin",
+    "id": "sovereigns-ruin",
+    "seconds": 91.7
+  }
+]

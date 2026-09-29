@@ -1,0 +1,16 @@
+import {chromium} from '@playwright/test';
+const browser=await chromium.launch({headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader']});
+const page=await browser.newPage({viewport:{width:1100,height:750}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto((process.env.GAME_URL||'http://localhost:5174'));await page.waitForFunction(()=>window.__hellbound);await page.evaluate(()=>{window.savedRender=window.__hellbound.renderer.render;window.__hellbound.renderer.render=()=>{}});await page.click('#start');
+const state=()=>page.evaluate(()=>window.__hellbound.state);
+const down=b=>page.evaluate(b=>document.getElementById('world').dispatchEvent(new PointerEvent('pointerdown',{button:b,bubbles:true})),b);
+const up=b=>page.evaluate(b=>window.dispatchEvent(new PointerEvent('pointerup',{button:b,bubbles:true})),b);
+const click=async b=>{await down(b);await up(b)};
+const restart=async()=>{await page.keyboard.press('Escape');await page.click('#restart');await page.waitForTimeout(150)};
+await click(0);await page.waitForTimeout(510);await click(0);await page.waitForTimeout(510);await click(2);await page.waitForTimeout(250);console.log('CLEAVE', (await state()).action,(await state()).combatLog);
+await restart();for(let i=0;i<3;i++){await click(0);await page.waitForTimeout(530)}await click(2);await page.waitForTimeout(250);console.log('STOMP',(await state()).action,(await state()).combatLog);
+await restart();await down(2);await page.waitForTimeout(1100);console.log('CHARGE',(await state()).charge);await up(2);await page.waitForTimeout(200);console.log('CHARGED RELEASE',(await state()).action,(await state()).combatLog);
+await restart();await page.keyboard.press('Space');await page.waitForTimeout(230);await click(0);await page.waitForTimeout(100);console.log('DODGE ATTACK',(await state()).action,(await state()).combatLog);
+await restart();await page.waitForTimeout(9600);await click(2);await page.waitForTimeout(440);await click(0);await page.waitForTimeout(410);console.log('AIR FOLLOWUP',(await state()).action,(await state()).combatLog,(await state()).foes.map(e=>e.y));await page.waitForTimeout(500);await page.keyboard.press('q');await page.waitForTimeout(220);await page.keyboard.press('e');await page.waitForTimeout(200);console.log('FINISHER',(await state()).finisher);await page.waitForTimeout(4500);console.log('RECOVERY',(await state()).finisher);
+await page.keyboard.press('Escape');await page.locator('#advancedGuide summary').click();console.log('CODEX',await page.locator('#advancedGuide').getAttribute('open'));await page.screenshot({path:'/home/user/codex-v2.png'});
+console.log('ERRORS',errors);await browser.close();if(errors.length)process.exit(1);

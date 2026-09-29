@@ -1,0 +1,38 @@
+{
+  "version": "0.10.0",
+  "standaloneBytes": 882407,
+  "sha256": "555b12409c61c994876cedd4f0fd4f4154e708dbd758ebc1bc68edc4762972d2",
+  "nativePlacement": {
+    "cases": 71,
+    "accepted": 71,
+    "rejected": 0,
+    "relocated": 13,
+    "maxGap": 0,
+    "maxStep": 0.1749199861081672,
+    "maxContact": 0.06293168878415202,
+    "errors": []
+  },
+  "previewContactScenarios": 43,
+  "worstPreviewContactResidual": 0.05152183677178062,
+  "offline": {
+    "outboundRequests": 0,
+    "pageErrors": 0,
+    "productionTestAPI": false
+  },
+  "passedSuites": [
+    "dominion-smoke",
+    "dominion-flow",
+    "dominion-combat",
+    "dominion-staging",
+    "contact-audit",
+    "cast-release-test",
+    "finishers-test",
+    "carnage-test",
+    "boss-routing",
+    "eclipse-test",
+    "final-qa",
+    "standalone-test",
+    "carnage-ui"
+  ],
+  "limits": "Sampled landmarks/approximate world colliders. Not a guarantee of exact skin contact or absence of all clipping."
+}

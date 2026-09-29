@@ -1,0 +1,10508 @@
+{
+ "results": [
+  {
+   "id": "soulbreaker",
+   "duration": 3.94,
+   "impact": 0.8,
+   "impactWall": 2.672,
+   "frames": 237,
+   "seconds": 3.95,
+   "impactFrame": 161,
+   "impactSeconds": 2.683333333333333,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.2830782203436256,
+   "stepAt": {
+    "frame": 60,
+    "u": 0.349,
+    "clock": 1,
+    "phys": false,
+    "from": [
+     0.97,
+     0.06,
+     0.92
+    ],
+    "to": [
+     1.22,
+     0.06,
+     0.79
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0012723569901536061,
+   "contactAt": {
+    "frame": 42,
+    "u": 0.2218,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.04,
+     1.95,
+     0.41
+    ],
+    "actual": [
+     -0.04,
+     1.95,
+     0.41
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      1,
+      "chest",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8077110290585768,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.672,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.19,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.52,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.6,
+      "kind": "lift",
+      "mass": 0.7,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.8,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.55,
+      "air"
+     ]
+    ],
+    "legacyDuration": 2.95,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "soulbreaker",
+   "duration": 3.94,
+   "impact": 0.8,
+   "impactWall": 2.672,
+   "frames": 237,
+   "seconds": 3.95,
+   "impactFrame": 161,
+   "impactSeconds": 2.683333333333333,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.28942407383912255,
+   "stepAt": {
+    "frame": 60,
+    "u": 0.349,
+    "clock": 1,
+    "phys": false,
+    "from": [
+     0.97,
+     0.06,
+     1.14
+    ],
+    "to": [
+     1.22,
+     0.06,
+     1
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0024859465745914835,
+   "contactAt": {
+    "frame": 123,
+    "u": 0.5841,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     0.23,
+     2.77,
+     -0.24
+    ],
+    "actual": [
+     0.23,
+     2.77,
+     -0.24
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      0,
+      "chest",
+      1
+     ],
+     [
+      1,
+      "chest",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8082208170342805,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.672,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.19,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.52,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.6,
+      "kind": "lift",
+      "mass": 0.7,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.8,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.55,
+      "air"
+     ]
+    ],
+    "legacyDuration": 2.95,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "grave-driver",
+   "duration": 3.85,
+   "impact": 0.77,
+   "impactWall": 2.576,
+   "frames": 232,
+   "seconds": 3.8666666666666667,
+   "impactFrame": 155,
+   "impactSeconds": 2.5833333333333335,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.1745789708450853,
+   "stepAt": {
+    "frame": 39,
+    "u": 0.22,
+    "clock": 0.65,
+    "phys": false,
+    "from": [
+     -0.48,
+     0.06,
+     1.55
+    ],
+    "to": [
+     -0.41,
+     0.06,
+     1.39
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 3.382899003920593e-7,
+   "contactAt": {
+    "frame": 53,
+    "u": 0.3392,
+    "type": "ankle-grip",
+    "strikes": [],
+    "contacts": []
+   },
+   "maxFraming": 0.8068945428649836,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.576,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.3,
+      "kind": "grip",
+      "mass": 0.4,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.51,
+      "kind": "lift",
+      "mass": 0.7,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.67,
+      "kind": "throw",
+      "mass": 0.9,
+      "dir": "down",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.77,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.29,
+      "prone"
+     ],
+     [
+      0.4,
+      "carried"
+     ]
+    ],
+    "legacyDuration": 2.91,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "grave-driver",
+   "duration": 3.85,
+   "impact": 0.77,
+   "impactWall": 2.576,
+   "frames": 232,
+   "seconds": 3.8666666666666667,
+   "impactFrame": 155,
+   "impactSeconds": 2.5833333333333335,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.2989650783092345,
+   "stepAt": {
+    "frame": 35,
+    "u": 0.208,
+    "clock": 0.583,
+    "phys": false,
+    "from": [
+     -0.89,
+     0.06,
+     2.02
+    ],
+    "to": [
+     -0.9,
+     0.06,
+     1.72
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 2.280848210055841e-7,
+   "contactAt": {
+    "frame": 53,
+    "u": 0.3392,
+    "type": "ankle-grip",
+    "strikes": [],
+    "contacts": []
+   },
+   "maxFraming": 0.8077838826617795,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.576,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.3,
+      "kind": "grip",
+      "mass": 0.4,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.51,
+      "kind": "lift",
+      "mass": 0.7,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.67,
+      "kind": "throw",
+      "mass": 0.9,
+      "dir": "down",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.77,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.29,
+      "prone"
+     ],
+     [
+      0.4,
+      "carried"
+     ]
+    ],
+    "legacyDuration": 2.91,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "crown-of-ruin",
+   "duration": 4,
+   "impact": 0.79,
+   "impactWall": 2.731,
+   "frames": 241,
+   "seconds": 4.016666666666667,
+   "impactFrame": 164,
+   "impactSeconds": 2.7333333333333334,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.2671603935184361,
+   "stepAt": {
+    "frame": 158,
+    "u": 0.722,
+    "clock": 2.633,
+    "phys": true,
+    "from": [
+     0.3,
+     1.36,
+     0.94
+    ],
+    "to": [
+     0.3,
+     1.1,
+     0.94
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0005977672998554386,
+   "contactAt": {
+    "frame": 45,
+    "u": 0.2505,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.05,
+     2.04,
+     0.21
+    ],
+    "actual": [
+     -0.05,
+     2.04,
+     0.21
+    ],
+    "strikes": [
+     [
+      1,
+      "chest",
+      "leg",
+      0
+     ]
+    ],
+    "contacts": [
+     [
+      1,
+      "chest",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8052106219186752,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 2.731,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.24,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "up",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.4,
+      "kind": "lift",
+      "mass": 0.4,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.63,
+      "kind": "strike",
+      "mass": 1,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.79,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.25,
+      "air"
+     ]
+    ],
+    "legacyDuration": 2.99,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "crown-of-ruin",
+   "duration": 4,
+   "impact": 0.79,
+   "impactWall": 2.731,
+   "frames": 241,
+   "seconds": 4.016666666666667,
+   "impactFrame": 164,
+   "impactSeconds": 2.7333333333333334,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.36988246854927115,
+   "stepAt": {
+    "frame": 160,
+    "u": 0.745,
+    "clock": 2.667,
+    "phys": true,
+    "from": [
+     0.28,
+     0.83,
+     1.07
+    ],
+    "to": [
+     0.53,
+     0.58,
+     1.19
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0005971721313867993,
+   "contactAt": {
+    "frame": 42,
+    "u": 0.2453,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.07,
+     2.37,
+     0.39
+    ],
+    "actual": [
+     -0.07,
+     2.37,
+     0.39
+    ],
+    "strikes": [
+     [
+      1,
+      "chest",
+      "leg",
+      0
+     ]
+    ],
+    "contacts": [
+     [
+      1,
+      "chest",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8033740175211712,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 2.731,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.24,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "up",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.4,
+      "kind": "lift",
+      "mass": 0.4,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.63,
+      "kind": "strike",
+      "mass": 1,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.79,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.25,
+      "air"
+     ]
+    ],
+    "legacyDuration": 2.99,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "hells-guillotine",
+   "duration": 3.72,
+   "impact": 0.76,
+   "impactWall": 2.453,
+   "frames": 224,
+   "seconds": 3.7333333333333334,
+   "impactFrame": 148,
+   "impactSeconds": 2.466666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.1752402429232207,
+   "stepAt": {
+    "frame": 30,
+    "u": 0.18,
+    "clock": 0.5,
+    "phys": false,
+    "from": [
+     -0.15,
+     0.06,
+     1.34
+    ],
+    "to": [
+     -0.29,
+     0.06,
+     1.23
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0004095538821608257,
+   "contactAt": {
+    "frame": 63,
+    "u": 0.4309,
+    "type": "palm-contact",
+    "hand": 0,
+    "goal": [
+     -0.07,
+     1.86,
+     0.65
+    ],
+    "actual": [
+     -0.07,
+     1.86,
+     0.65
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      0,
+      "head",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8040865629711491,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.4,
+    2.2
+   ],
+   "severs": [
+    "head"
+   ],
+   "kicks": 4,
+   "gravitas": {
+    "pre": 2.453,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "fwd",
+      "hand": 0,
+      "leg": true
+     },
+     {
+      "u": 0.29,
+      "kind": "grip",
+      "mass": 0.4,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.57,
+      "kind": "lift",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.67,
+      "kind": "strike",
+      "mass": 1.15,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.76,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": [
+     0.67,
+     "head"
+    ],
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.3,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 2.75,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "hells-guillotine",
+   "duration": 3.72,
+   "impact": 0.76,
+   "impactWall": 2.453,
+   "frames": 224,
+   "seconds": 3.7333333333333334,
+   "impactFrame": 148,
+   "impactSeconds": 2.466666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.3093054578317259,
+   "stepAt": {
+    "frame": 29,
+    "u": 0.168,
+    "clock": 0.483,
+    "phys": false,
+    "from": [
+     -0.03,
+     0.06,
+     1.93
+    ],
+    "to": [
+     -0.22,
+     0.06,
+     1.69
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.00032154315873403637,
+   "contactAt": {
+    "frame": 60,
+    "u": 0.4122,
+    "type": "palm-contact",
+    "hand": 0,
+    "goal": [
+     -0.11,
+     2.05,
+     1.06
+    ],
+    "actual": [
+     -0.11,
+     2.05,
+     1.06
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      0,
+      "head",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8039847220269922,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.4,
+    2.2
+   ],
+   "severs": [
+    "head"
+   ],
+   "kicks": 4,
+   "gravitas": {
+    "pre": 2.453,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "fwd",
+      "hand": 0,
+      "leg": true
+     },
+     {
+      "u": 0.29,
+      "kind": "grip",
+      "mass": 0.4,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.57,
+      "kind": "lift",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.67,
+      "kind": "strike",
+      "mass": 1.15,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.76,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": [
+     0.67,
+     "head"
+    ],
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.3,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 2.75,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "tyrants-verdict",
+   "duration": 4.07,
+   "impact": 0.79,
+   "impactWall": 2.802,
+   "frames": 245,
+   "seconds": 4.083333333333333,
+   "impactFrame": 169,
+   "impactSeconds": 2.816666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.17800675177144076,
+   "stepAt": {
+    "frame": 73,
+    "u": 0.408,
+    "clock": 1.217,
+    "phys": false,
+    "from": [
+     1.17,
+     0.06,
+     1.02
+    ],
+    "to": [
+     1.32,
+     0.06,
+     0.91
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0002939928769167645,
+   "contactAt": {
+    "frame": 41,
+    "u": 0.2621,
+    "type": "palm-contact",
+    "hand": 0,
+    "goal": [
+     0.69,
+     1.86,
+     0.69
+    ],
+    "actual": [
+     0.69,
+     1.86,
+     0.69
+    ],
+    "strikes": [
+     [
+      1,
+      null,
+      "leg",
+      0
+     ]
+    ],
+    "contacts": [
+     [
+      0,
+      null,
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8016200995803048,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    2.4,
+    2.2
+   ],
+   "severs": [
+    "leg"
+   ],
+   "kicks": 5,
+   "gravitas": {
+    "pre": 2.802,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.44,
+      "kind": "throw",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.65,
+      "kind": "strike",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.79,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": [
+     0.65,
+     "leg"
+    ],
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.53,
+      "prone"
+     ]
+    ],
+    "legacyDuration": 3.07,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "tyrants-verdict",
+   "duration": 4.07,
+   "impact": 0.79,
+   "impactWall": 2.802,
+   "frames": 245,
+   "seconds": 4.083333333333333,
+   "impactFrame": 169,
+   "impactSeconds": 2.816666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.19042730985988082,
+   "stepAt": {
+    "frame": 73,
+    "u": 0.408,
+    "clock": 1.217,
+    "phys": false,
+    "from": [
+     1.17,
+     0.06,
+     1.21
+    ],
+    "to": [
+     1.32,
+     0.06,
+     1.09
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.000658785176097955,
+   "contactAt": {
+    "frame": 37,
+    "u": 0.2322,
+    "type": "palm-contact",
+    "hand": 0,
+    "goal": [
+     1.2,
+     2.19,
+     0.8
+    ],
+    "actual": [
+     1.2,
+     2.19,
+     0.8
+    ],
+    "strikes": [
+     [
+      1,
+      null,
+      "leg",
+      0
+     ]
+    ],
+    "contacts": [
+     [
+      0,
+      null,
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8004328017671996,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    2.4,
+    2.2
+   ],
+   "severs": [
+    "leg"
+   ],
+   "kicks": 5,
+   "gravitas": {
+    "pre": 2.802,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.44,
+      "kind": "throw",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.65,
+      "kind": "strike",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.79,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": [
+     0.65,
+     "leg"
+    ],
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.53,
+      "prone"
+     ]
+    ],
+    "legacyDuration": 3.07,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "furnace-heart",
+   "duration": 4.06,
+   "impact": 0.79,
+   "impactWall": 2.794,
+   "frames": 244,
+   "seconds": 4.066666666666666,
+   "impactFrame": 168,
+   "impactSeconds": 2.8,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.26217160311544657,
+   "stepAt": {
+    "frame": 167,
+    "u": 0.783,
+    "clock": 2.783,
+    "phys": true,
+    "from": [
+     0.05,
+     0.06,
+     1.07
+    ],
+    "to": [
+     -0.08,
+     0.06,
+     1.3
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0009625956469032135,
+   "contactAt": {
+    "frame": 73,
+    "u": 0.3878,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.02,
+     2,
+     0.31
+    ],
+    "actual": [
+     -0.02,
+     2,
+     0.31
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      1,
+      "chest",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8033055356017792,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 2.794,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.23,
+      "kind": "strike",
+      "mass": 0.6,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.44,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.75,
+      "kind": "strike",
+      "mass": 1.2,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.79,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ]
+    ],
+    "legacyDuration": 3.03,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "furnace-heart",
+   "duration": 4.06,
+   "impact": 0.79,
+   "impactWall": 2.794,
+   "frames": 244,
+   "seconds": 4.066666666666666,
+   "impactFrame": 168,
+   "impactSeconds": 2.8,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.23788726523757237,
+   "stepAt": {
+    "frame": 167,
+    "u": 0.783,
+    "clock": 2.783,
+    "phys": true,
+    "from": [
+     0.05,
+     0.06,
+     1.23
+    ],
+    "to": [
+     -0.02,
+     0.06,
+     1.46
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0007173588817414277,
+   "contactAt": {
+    "frame": 40,
+    "u": 0.2351,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.08,
+     2.38,
+     0.41
+    ],
+    "actual": [
+     -0.08,
+     2.38,
+     0.41
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      1,
+      "chest",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8039696829782002,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 2.794,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.23,
+      "kind": "strike",
+      "mass": 0.6,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.44,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.75,
+      "kind": "strike",
+      "mass": 1.2,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.79,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ]
+    ],
+    "legacyDuration": 3.03,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "cinder-spiral",
+   "duration": 5.43,
+   "impact": 0.87,
+   "impactWall": 4.16,
+   "frames": 326,
+   "seconds": 5.433333333333334,
+   "impactFrame": 250,
+   "impactSeconds": 4.166666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.1944553168547628,
+   "stepAt": {
+    "frame": 146,
+    "u": 0.506,
+    "clock": 2.433,
+    "phys": false,
+    "from": [
+     1.58,
+     0.06,
+     -1.94
+    ],
+    "to": [
+     1.42,
+     0.06,
+     -2.05
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.000605937315685121,
+   "contactAt": {
+    "frame": 81,
+    "u": 0.2744,
+    "type": "ankle-grip",
+    "strikes": [],
+    "contacts": []
+   },
+   "maxFraming": 0.8120417805120697,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 4.16,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.18,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.22,
+      "kind": "grip",
+      "mass": 0.4,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.78,
+      "kind": "throw",
+      "mass": 1,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.87,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": true,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.2,
+      "prone"
+     ],
+     [
+      0.3,
+      "carried"
+     ]
+    ],
+    "legacyDuration": 4.47,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "cinder-spiral",
+   "duration": 5.43,
+   "impact": 0.87,
+   "impactWall": 4.16,
+   "frames": 326,
+   "seconds": 5.433333333333334,
+   "impactFrame": 250,
+   "impactSeconds": 4.166666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.1944553168547628,
+   "stepAt": {
+    "frame": 146,
+    "u": 0.506,
+    "clock": 2.433,
+    "phys": false,
+    "from": [
+     1.58,
+     0.06,
+     -1.94
+    ],
+    "to": [
+     1.42,
+     0.06,
+     -2.05
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0003065118786173616,
+   "contactAt": {
+    "frame": 81,
+    "u": 0.2744,
+    "type": "ankle-grip",
+    "strikes": [],
+    "contacts": []
+   },
+   "maxFraming": 0.8176983181104529,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 4.16,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.18,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.22,
+      "kind": "grip",
+      "mass": 0.4,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.78,
+      "kind": "throw",
+      "mass": 1,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.87,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": true,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.2,
+      "prone"
+     ],
+     [
+      0.3,
+      "carried"
+     ]
+    ],
+    "legacyDuration": 4.47,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "infernal-pillar",
+   "duration": 4.31,
+   "impact": 0.8,
+   "impactWall": 3.041,
+   "frames": 259,
+   "seconds": 4.316666666666666,
+   "impactFrame": 183,
+   "impactSeconds": 3.05,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.136773103264356,
+   "stepAt": {
+    "frame": 11,
+    "u": 0.065,
+    "clock": 0.183,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.29
+    ],
+    "to": [
+     0,
+     0.06,
+     2.16
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.00033785787853531427,
+   "contactAt": {
+    "frame": 46,
+    "u": 0.2311,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     0.03,
+     2.03,
+     0.29
+    ],
+    "actual": [
+     0.03,
+     2.03,
+     0.29
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      1,
+      "chest",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.7995660710326409,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 3.041,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.42,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.71,
+      "kind": "pulse",
+      "mass": 0.8,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.8,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.3,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.32,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "infernal-pillar",
+   "duration": 4.31,
+   "impact": 0.8,
+   "impactWall": 3.041,
+   "frames": 259,
+   "seconds": 4.316666666666666,
+   "impactFrame": 183,
+   "impactSeconds": 3.05,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.13194248943722017,
+   "stepAt": {
+    "frame": 43,
+    "u": 0.225,
+    "clock": 0.717,
+    "phys": false,
+    "from": [
+     0.09,
+     0.06,
+     1.47
+    ],
+    "to": [
+     0.16,
+     0.06,
+     1.36
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0009692009168350857,
+   "contactAt": {
+    "frame": 46,
+    "u": 0.2311,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     0.05,
+     2.34,
+     0.46
+    ],
+    "actual": [
+     0.05,
+     2.35,
+     0.46
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      1,
+      "chest",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8002665597756213,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 3.041,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.42,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.71,
+      "kind": "pulse",
+      "mass": 0.8,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.8,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.3,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.32,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "meteor-burial",
+   "duration": 4.46,
+   "impact": 0.81,
+   "impactWall": 3.186,
+   "frames": 268,
+   "seconds": 4.466666666666667,
+   "impactFrame": 192,
+   "impactSeconds": 3.2,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.2203919680966655,
+   "stepAt": {
+    "frame": 184,
+    "u": 0.726,
+    "clock": 3.067,
+    "phys": true,
+    "from": [
+     0.8,
+     1.33,
+     0.44
+    ],
+    "to": [
+     0.8,
+     1.11,
+     0.44
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0018460628902796088,
+   "contactAt": {
+    "frame": 53,
+    "u": 0.2326,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.05,
+     2.12,
+     0.31
+    ],
+    "actual": [
+     -0.05,
+     2.12,
+     0.31
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      1,
+      "chest",
+      0.99
+     ]
+    ]
+   },
+   "maxFraming": 0.8016936777201266,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 3.186,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "up",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.51,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.64,
+      "kind": "throw",
+      "mass": 0.9,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.81,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.25,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.44,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "meteor-burial",
+   "duration": 4.46,
+   "impact": 0.81,
+   "impactWall": 3.186,
+   "frames": 268,
+   "seconds": 4.466666666666667,
+   "impactFrame": 192,
+   "impactSeconds": 3.2,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.2938199558695806,
+   "stepAt": {
+    "frame": 187,
+    "u": 0.761,
+    "clock": 3.117,
+    "phys": true,
+    "from": [
+     0.87,
+     0.68,
+     0.97
+    ],
+    "to": [
+     0.92,
+     0.49,
+     1.19
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0008390642008996641,
+   "contactAt": {
+    "frame": 145,
+    "u": 0.5717,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     0.21,
+     4.99,
+     -0.13
+    ],
+    "actual": [
+     0.21,
+     4.99,
+     -0.13
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      0,
+      "chest",
+      1
+     ],
+     [
+      1,
+      "chest",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8025634547361049,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 3.186,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "up",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.51,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.64,
+      "kind": "throw",
+      "mass": 0.9,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.81,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.25,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.44,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "ashen-cross",
+   "duration": 3.45,
+   "impact": 0.76,
+   "impactWall": 2.183,
+   "frames": 208,
+   "seconds": 3.466666666666667,
+   "impactFrame": 131,
+   "impactSeconds": 2.183333333333333,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.22593265151963116,
+   "stepAt": {
+    "frame": 14,
+    "u": 0.086,
+    "clock": 0.233,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.19
+    ],
+    "to": [
+     0,
+     0.06,
+     1.96
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.002203083374446478,
+   "contactAt": {
+    "frame": 40,
+    "u": 0.2324,
+    "type": "palm-contact",
+    "hand": 0,
+    "goal": [
+     0.23,
+     1.94,
+     0.44
+    ],
+    "actual": [
+     0.23,
+     1.94,
+     0.44
+    ],
+    "strikes": [
+     [
+      0,
+      "chest",
+      "",
+      1
+     ]
+    ],
+    "contacts": []
+   },
+   "maxFraming": 0.8024466684404303,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.4,
+    2.2
+   ],
+   "severs": [
+    "arm"
+   ],
+   "kicks": 4,
+   "gravitas": {
+    "pre": 2.183,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.25,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.49,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.76,
+      "kind": "pulse",
+      "mass": 1.25,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": true,
+    "sever": [
+     0.755,
+     "arm"
+    ],
+    "victim": [
+     [
+      0,
+      "stand"
+     ]
+    ],
+    "legacyDuration": 2.62,
+    "kill": "pulse"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "ashen-cross",
+   "duration": 3.45,
+   "impact": 0.76,
+   "impactWall": 2.183,
+   "frames": 208,
+   "seconds": 3.466666666666667,
+   "impactFrame": 131,
+   "impactSeconds": 2.183333333333333,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.17509780492771432,
+   "stepAt": {
+    "frame": 14,
+    "u": 0.086,
+    "clock": 0.233,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.41
+    ],
+    "to": [
+     0,
+     0.06,
+     2.24
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0004890700316059483,
+   "contactAt": {
+    "frame": 85,
+    "u": 0.4728,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.41,
+     3,
+     0.7
+    ],
+    "actual": [
+     -0.41,
+     3,
+     0.7
+    ],
+    "strikes": [
+     [
+      1,
+      "chest",
+      "",
+      1
+     ]
+    ],
+    "contacts": []
+   },
+   "maxFraming": 0.8034810985747183,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.4,
+    2.2
+   ],
+   "severs": [
+    "arm"
+   ],
+   "kicks": 4,
+   "gravitas": {
+    "pre": 2.183,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.25,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.49,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.76,
+      "kind": "pulse",
+      "mass": 1.25,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": true,
+    "sever": [
+     0.755,
+     "arm"
+    ],
+    "victim": [
+     [
+      0,
+      "stand"
+     ]
+    ],
+    "legacyDuration": 2.62,
+    "kill": "pulse"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "pyre-king",
+   "duration": 3.97,
+   "impact": 0.8,
+   "impactWall": 2.698,
+   "frames": 239,
+   "seconds": 3.9833333333333334,
+   "impactFrame": 162,
+   "impactSeconds": 2.7,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.16944419299620161,
+   "stepAt": {
+    "frame": 16,
+    "u": 0.079,
+    "clock": 0.267,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.39
+    ],
+    "to": [
+     0,
+     0.06,
+     2.22
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0017987290307845353,
+   "contactAt": {
+    "frame": 100,
+    "u": 0.4708,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.02,
+     1.81,
+     0.2
+    ],
+    "actual": [
+     -0.01,
+     1.81,
+     0.2
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      1,
+      "head",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8001258844875728,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.698,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.46,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.8,
+      "kind": "pulse",
+      "mass": 1.25,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": true,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.3,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 3.16,
+    "kill": "pulse"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "pyre-king",
+   "duration": 3.97,
+   "impact": 0.8,
+   "impactWall": 2.698,
+   "frames": 239,
+   "seconds": 3.9833333333333334,
+   "impactFrame": 162,
+   "impactSeconds": 2.7,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.13131924957205632,
+   "stepAt": {
+    "frame": 16,
+    "u": 0.079,
+    "clock": 0.267,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.57
+    ],
+    "to": [
+     0,
+     0.06,
+     2.44
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.00044048884171562195,
+   "contactAt": {
+    "frame": 99,
+    "u": 0.4673,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     0.01,
+     2.85,
+     0.31
+    ],
+    "actual": [
+     0.01,
+     2.85,
+     0.31
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      1,
+      "head",
+      0.99
+     ]
+    ]
+   },
+   "maxFraming": 0.800359961537178,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.698,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.46,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.8,
+      "kind": "pulse",
+      "mass": 1.25,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": true,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.3,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 3.16,
+    "kill": "pulse"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "mindbreaker",
+   "duration": 3.92,
+   "impact": 0.79,
+   "impactWall": 2.651,
+   "frames": 236,
+   "seconds": 3.933333333333333,
+   "impactFrame": 160,
+   "impactSeconds": 2.6666666666666665,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.15498858518333414,
+   "stepAt": {
+    "frame": 9,
+    "u": 0.06,
+    "clock": 0.15,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.42
+    ],
+    "to": [
+     0,
+     0.06,
+     2.26
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0008113215150296785,
+   "contactAt": {
+    "frame": 42,
+    "u": 0.2742,
+    "type": "palm-contact",
+    "hand": 0,
+    "goal": [
+     0.18,
+     1.88,
+     0.75
+    ],
+    "actual": [
+     0.18,
+     1.88,
+     0.75
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      0,
+      "head",
+      1
+     ],
+     [
+      1,
+      "head",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8000402935446167,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.651,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.25,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.48,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.65,
+      "kind": "pulse",
+      "mass": 0.8,
+      "dir": "crush",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.79,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.4,
+      "air"
+     ]
+    ],
+    "legacyDuration": 2.99,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "mindbreaker",
+   "duration": 3.92,
+   "impact": 0.79,
+   "impactWall": 2.651,
+   "frames": 236,
+   "seconds": 3.933333333333333,
+   "impactFrame": 160,
+   "impactSeconds": 2.6666666666666665,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.13332351413620103,
+   "stepAt": {
+    "frame": 9,
+    "u": 0.06,
+    "clock": 0.15,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.53
+    ],
+    "to": [
+     0,
+     0.06,
+     2.4
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.00023567670626530095,
+   "contactAt": {
+    "frame": 45,
+    "u": 0.2978,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.37,
+     2.18,
+     1.21
+    ],
+    "actual": [
+     -0.37,
+     2.18,
+     1.21
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      0,
+      "head",
+      1
+     ],
+     [
+      1,
+      "head",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8002682763829597,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.651,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.25,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.48,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.65,
+      "kind": "pulse",
+      "mass": 0.8,
+      "dir": "crush",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.79,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.4,
+      "air"
+     ]
+    ],
+    "legacyDuration": 2.99,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "gravity-coffin",
+   "duration": 4.34,
+   "impact": 0.8,
+   "impactWall": 3.07,
+   "frames": 261,
+   "seconds": 4.35,
+   "impactFrame": 185,
+   "impactSeconds": 3.0833333333333335,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.14333712590270453,
+   "stepAt": {
+    "frame": 10,
+    "u": 0.062,
+    "clock": 0.167,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.37
+    ],
+    "to": [
+     0,
+     0.06,
+     2.23
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.7999826172316477,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 3.07,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.3,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.46,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "crush",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.59,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "crush",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.72,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.8,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.25,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.28,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "gravity-coffin",
+   "duration": 4.34,
+   "impact": 0.8,
+   "impactWall": 3.07,
+   "frames": 261,
+   "seconds": 4.35,
+   "impactFrame": 185,
+   "impactSeconds": 3.0833333333333335,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.12330075346469238,
+   "stepAt": {
+    "frame": 10,
+    "u": 0.062,
+    "clock": 0.167,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.49
+    ],
+    "to": [
+     0,
+     0.06,
+     2.37
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8008316610037438,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 3.07,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.3,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.46,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "crush",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.59,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "crush",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.72,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.8,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.25,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.28,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "orbit-of-ruin",
+   "duration": 4.13,
+   "impact": 0.8,
+   "impactWall": 2.858,
+   "frames": 248,
+   "seconds": 4.133333333333334,
+   "impactFrame": 172,
+   "impactSeconds": 2.8666666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.13203040093016938,
+   "stepAt": {
+    "frame": 13,
+    "u": 0.061,
+    "clock": 0.217,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.45
+    ],
+    "to": [
+     0,
+     0.06,
+     2.32
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8037393575950046,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 2.858,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.24,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.78,
+      "kind": "throw",
+      "mass": 1,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.8,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": true,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.3,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.36,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "orbit-of-ruin",
+   "duration": 4.13,
+   "impact": 0.8,
+   "impactWall": 2.858,
+   "frames": 248,
+   "seconds": 4.133333333333334,
+   "impactFrame": 172,
+   "impactSeconds": 2.8666666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.24053308681986202,
+   "stepAt": {
+    "frame": 143,
+    "u": 0.61,
+    "clock": 2.383,
+    "phys": false,
+    "from": [
+     -0.11,
+     0.06,
+     1.71
+    ],
+    "to": [
+     -0.34,
+     0.06,
+     1.76
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8030748618776568,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 2.858,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.24,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.78,
+      "kind": "throw",
+      "mass": 1,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.8,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": true,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.3,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.36,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "heavens-rejection",
+   "duration": 4.36,
+   "impact": 0.81,
+   "impactWall": 3.092,
+   "frames": 262,
+   "seconds": 4.366666666666666,
+   "impactFrame": 186,
+   "impactSeconds": 3.1,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.4285872408132512,
+   "stepAt": {
+    "frame": 180,
+    "u": 0.746,
+    "clock": 3,
+    "phys": true,
+    "from": [
+     0,
+     0.06,
+     1.2
+    ],
+    "to": [
+     -0.18,
+     0.06,
+     1.59
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.7997472250804973,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 3.092,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.23,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "up",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.5,
+      "kind": "lift",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.81,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.26,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.4,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "heavens-rejection",
+   "duration": 4.36,
+   "impact": 0.81,
+   "impactWall": 3.092,
+   "frames": 262,
+   "seconds": 4.366666666666666,
+   "impactFrame": 186,
+   "impactSeconds": 3.1,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.37695188950470093,
+   "stepAt": {
+    "frame": 180,
+    "u": 0.746,
+    "clock": 3,
+    "phys": true,
+    "from": [
+     0,
+     0.06,
+     1.65
+    ],
+    "to": [
+     0.05,
+     0.06,
+     2.02
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.800267944584176,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 3.092,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.23,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "up",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.5,
+      "kind": "lift",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.81,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.26,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.4,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "rift-fold",
+   "duration": 4.05,
+   "impact": 0.79,
+   "impactWall": 2.781,
+   "frames": 244,
+   "seconds": 4.066666666666666,
+   "impactFrame": 167,
+   "impactSeconds": 2.783333333333333,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.22037006000324677,
+   "stepAt": {
+    "frame": 14,
+    "u": 0.084,
+    "clock": 0.233,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.26
+    ],
+    "to": [
+     0,
+     0.06,
+     2.04
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8016992489870786,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 2.781,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.29,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.62,
+      "kind": "pulse",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.79,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ]
+    ],
+    "legacyDuration": 3.12,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "rift-fold",
+   "duration": 4.05,
+   "impact": 0.79,
+   "impactWall": 2.781,
+   "frames": 244,
+   "seconds": 4.066666666666666,
+   "impactFrame": 167,
+   "impactSeconds": 2.783333333333333,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.22725984729980594,
+   "stepAt": {
+    "frame": 156,
+    "u": 0.663,
+    "clock": 2.6,
+    "phys": true,
+    "from": [
+     0,
+     0.06,
+     1.64
+    ],
+    "to": [
+     0.08,
+     0.06,
+     1.43
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8013622744186191,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 2.781,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.29,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.62,
+      "kind": "pulse",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.79,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ]
+    ],
+    "legacyDuration": 3.12,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "wraith-procession",
+   "duration": 4.38,
+   "impact": 0.8,
+   "impactWall": 3.111,
+   "frames": 263,
+   "seconds": 4.383333333333334,
+   "impactFrame": 187,
+   "impactSeconds": 3.1166666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.18644916917803106,
+   "stepAt": {
+    "frame": 178,
+    "u": 0.699,
+    "clock": 2.967,
+    "phys": false,
+    "from": [
+     -1.44,
+     0.06,
+     -0.13
+    ],
+    "to": [
+     -1.29,
+     0.06,
+     -0.02
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0010926356556878237,
+   "contactAt": {
+    "frame": 185,
+    "u": 0.7806,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.51,
+     1.94,
+     -0.49
+    ],
+    "actual": [
+     -0.51,
+     1.94,
+     -0.48
+    ],
+    "strikes": [
+     [
+      1,
+      "chest",
+      "",
+      1
+     ]
+    ],
+    "contacts": [
+     [
+      1,
+      "chest",
+      0.97
+     ]
+    ]
+   },
+   "maxFraming": 0.7997015739142033,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 4,
+   "gravitas": {
+    "pre": 3.111,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.25,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.39,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.53,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "fwd",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.8,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ]
+    ],
+    "legacyDuration": 3.36,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "wraith-procession",
+   "duration": 4.38,
+   "impact": 0.8,
+   "impactWall": 3.111,
+   "frames": 263,
+   "seconds": 4.383333333333334,
+   "impactFrame": 187,
+   "impactSeconds": 3.1166666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.23865600531240697,
+   "stepAt": {
+    "frame": 179,
+    "u": 0.711,
+    "clock": 2.983,
+    "phys": false,
+    "from": [
+     -1.61,
+     0.06,
+     0.05
+    ],
+    "to": [
+     -1.55,
+     0.06,
+     0.28
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0010336610008857014,
+   "contactAt": {
+    "frame": 182,
+    "u": 0.7456,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.68,
+     3.11,
+     -0.04
+    ],
+    "actual": [
+     -0.68,
+     3.11,
+     -0.04
+    ],
+    "strikes": [
+     [
+      1,
+      "chest",
+      "",
+      1
+     ]
+    ],
+    "contacts": [
+     [
+      1,
+      "chest",
+      0.92
+     ]
+    ]
+   },
+   "maxFraming": 0.8003003827115145,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 4,
+   "gravitas": {
+    "pre": 3.111,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.25,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.39,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.53,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "fwd",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.8,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ]
+    ],
+    "legacyDuration": 3.36,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "soul-sever",
+   "duration": 4.09,
+   "impact": 0.8,
+   "impactWall": 2.825,
+   "frames": 246,
+   "seconds": 4.1,
+   "impactFrame": 170,
+   "impactSeconds": 2.8333333333333335,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.13730052280939598,
+   "stepAt": {
+    "frame": 11,
+    "u": 0.065,
+    "clock": 0.183,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.29
+    ],
+    "to": [
+     0,
+     0.06,
+     2.15
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0008393551799971017,
+   "contactAt": {
+    "frame": 52,
+    "u": 0.2686,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.05,
+     1.92,
+     0.41
+    ],
+    "actual": [
+     -0.05,
+     1.92,
+     0.41
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      1,
+      "chest",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8053026730933047,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.825,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.48,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.8,
+      "kind": "pulse",
+      "mass": 1.25,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.43,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 3.12,
+    "kill": "pulse"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "soul-sever",
+   "duration": 4.09,
+   "impact": 0.8,
+   "impactWall": 2.825,
+   "frames": 246,
+   "seconds": 4.1,
+   "impactFrame": 170,
+   "impactSeconds": 2.8333333333333335,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.11852482901656317,
+   "stepAt": {
+    "frame": 61,
+    "u": 0.324,
+    "clock": 1.017,
+    "phys": false,
+    "from": [
+     0.07,
+     0.06,
+     1.48
+    ],
+    "to": [
+     0.02,
+     0.06,
+     1.58
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0011703849222839957,
+   "contactAt": {
+    "frame": 46,
+    "u": 0.2315,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.07,
+     2.3,
+     0.51
+    ],
+    "actual": [
+     -0.07,
+     2.3,
+     0.51
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      1,
+      "chest",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8073111555547365,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.825,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.48,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.8,
+      "kind": "pulse",
+      "mass": 1.25,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.43,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 3.12,
+    "kill": "pulse"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "pale-requiem",
+   "duration": 4.1,
+   "impact": 0.79,
+   "impactWall": 2.83,
+   "frames": 247,
+   "seconds": 4.116666666666666,
+   "impactFrame": 170,
+   "impactSeconds": 2.8333333333333335,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.4757382706822245,
+   "stepAt": {
+    "frame": 40,
+    "u": 0.213,
+    "clock": 0.667,
+    "phys": false,
+    "from": [
+     1.13,
+     0.06,
+     1.38
+    ],
+    "to": [
+     1.45,
+     0.06,
+     1.03
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8063844250535986,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 2.83,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.49,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.79,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.5,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.2,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "pale-requiem",
+   "duration": 4.1,
+   "impact": 0.79,
+   "impactWall": 2.83,
+   "frames": 247,
+   "seconds": 4.116666666666666,
+   "impactFrame": 170,
+   "impactSeconds": 2.8333333333333335,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.547190226055728,
+   "stepAt": {
+    "frame": 40,
+    "u": 0.213,
+    "clock": 0.667,
+    "phys": false,
+    "from": [
+     1.13,
+     0.06,
+     1.62
+    ],
+    "to": [
+     1.45,
+     0.06,
+     1.18
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8061257904178867,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 2.83,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.49,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.79,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.5,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.2,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "tomb-of-echoes",
+   "duration": 4.48,
+   "impact": 0.81,
+   "impactWall": 3.21,
+   "frames": 269,
+   "seconds": 4.483333333333333,
+   "impactFrame": 193,
+   "impactSeconds": 3.216666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.18932553319702894,
+   "stepAt": {
+    "frame": 16,
+    "u": 0.083,
+    "clock": 0.267,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.28
+    ],
+    "to": [
+     0,
+     0.06,
+     2.09
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8023090673036737,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 3.21,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.29,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.55,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.81,
+      "kind": "pulse",
+      "mass": 1.25,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.25,
+      "bound"
+     ]
+    ],
+    "legacyDuration": 3.53,
+    "kill": "pulse"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "tomb-of-echoes",
+   "duration": 4.48,
+   "impact": 0.81,
+   "impactWall": 3.21,
+   "frames": 269,
+   "seconds": 4.483333333333333,
+   "impactFrame": 193,
+   "impactSeconds": 3.216666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.14865225082255507,
+   "stepAt": {
+    "frame": 185,
+    "u": 0.721,
+    "clock": 3.083,
+    "phys": true,
+    "from": [
+     -0.02,
+     0.06,
+     1.8
+    ],
+    "to": [
+     0,
+     0.06,
+     1.95
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8045212027193912,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 3.21,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.29,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.55,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.81,
+      "kind": "pulse",
+      "mass": 1.25,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.25,
+      "bound"
+     ]
+    ],
+    "legacyDuration": 3.53,
+    "kill": "pulse"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "kingbreaker",
+   "duration": 7.31,
+   "impact": 0.88,
+   "impactWall": 5.762,
+   "frames": 439,
+   "seconds": 7.316666666666666,
+   "impactFrame": 346,
+   "impactSeconds": 5.766666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.26948843049263166,
+   "stepAt": {
+    "frame": 141,
+    "u": 0.394,
+    "clock": 2.35,
+    "phys": false,
+    "from": [
+     -0.14,
+     0.06,
+     2.07
+    ],
+    "to": [
+     -0.18,
+     0.06,
+     1.81
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0014629308029421373,
+   "contactAt": {
+    "frame": 98,
+    "u": 0.2733,
+    "type": "palm-contact",
+    "hand": 0,
+    "goal": [
+     0.33,
+     2.22,
+     1.26
+    ],
+    "actual": [
+     0.33,
+     2.23,
+     1.26
+    ],
+    "strikes": [
+     [
+      0,
+      "head",
+      "leg",
+      0
+     ],
+     [
+      1,
+      null,
+      "leg",
+      0
+     ],
+     [
+      1,
+      "head",
+      "",
+      0
+     ]
+    ],
+    "contacts": [
+     [
+      0,
+      "head",
+      0.99
+     ],
+     [
+      1,
+      "head",
+      0.99
+     ]
+    ]
+   },
+   "maxFraming": 0.806421481467334,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    2.4,
+    3.2
+   ],
+   "severs": [
+    "head"
+   ],
+   "kicks": 5,
+   "gravitas": {
+    "pre": 5.762,
+    "hold": 0.55,
+    "rise": 1,
+    "tail": 1.55,
+    "beats": [
+     {
+      "u": 0.16,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.24,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.39,
+      "kind": "strike",
+      "mass": 1,
+      "dir": "up",
+      "hand": 0,
+      "leg": true
+     },
+     {
+      "u": 0.56,
+      "kind": "strike",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.72,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.88,
+      "kind": "slam",
+      "mass": 1.4,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.1,
+      "kneel"
+     ],
+     [
+      0.55,
+      "prone"
+     ]
+    ],
+    "legacyDuration": 5.71,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "throne-of-cinders",
+   "duration": 7.79,
+   "impact": 0.89,
+   "impactWall": 6.241,
+   "frames": 468,
+   "seconds": 7.8,
+   "impactFrame": 375,
+   "impactSeconds": 6.25,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.2444843720993428,
+   "stepAt": {
+    "frame": 93,
+    "u": 0.202,
+    "clock": 1.55,
+    "phys": false,
+    "from": [
+     -0.71,
+     0.06,
+     3.53
+    ],
+    "to": [
+     -0.85,
+     0.06,
+     3.74
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0018044898760007024,
+   "contactAt": {
+    "frame": 118,
+    "u": 0.2834,
+    "type": "ankle-grip",
+    "strikes": [
+     [
+      1,
+      "chest",
+      "leg",
+      0
+     ],
+     [
+      1,
+      "chest",
+      "leg",
+      0
+     ]
+    ],
+    "contacts": []
+   },
+   "maxFraming": 0.8524226034073771,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    2.4,
+    3.2
+   ],
+   "severs": [
+    "arm"
+   ],
+   "kicks": 5,
+   "gravitas": {
+    "pre": 6.241,
+    "hold": 0.55,
+    "rise": 1,
+    "tail": 1.55,
+    "beats": [
+     {
+      "u": 0.17,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.25,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.65,
+      "kind": "slam",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.75,
+      "kind": "strike",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.86,
+      "kind": "strike",
+      "mass": 1.2,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.89,
+      "kind": "slam",
+      "mass": 1.4,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": true,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.2,
+      "carried"
+     ],
+     [
+      0.62,
+      "prone"
+     ]
+    ],
+    "legacyDuration": 6.38,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 0,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "sovereigns-ruin",
+   "duration": 7.71,
+   "impact": 0.9,
+   "impactWall": 6.16,
+   "frames": 463,
+   "seconds": 7.716666666666667,
+   "impactFrame": 370,
+   "impactSeconds": 6.166666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.41668753349417836,
+   "stepAt": {
+    "frame": 362,
+    "u": 0.832,
+    "clock": 6.033,
+    "phys": true,
+    "from": [
+     -0.49,
+     0.06,
+     2.17
+    ],
+    "to": [
+     -0.68,
+     0.06,
+     2.54
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.005439128922450818,
+   "contactAt": {
+    "frame": 111,
+    "u": 0.3341,
+    "type": "palm-contact",
+    "hand": 0,
+    "goal": [
+     0.35,
+     2.47,
+     1.19
+    ],
+    "actual": [
+     0.35,
+     2.47,
+     1.19
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      0,
+      "head",
+      1
+     ],
+     [
+      1,
+      "head",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8004117292563213,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    2.4,
+    3.2
+   ],
+   "severs": [
+    "head"
+   ],
+   "kicks": 5,
+   "gravitas": {
+    "pre": 6.16,
+    "hold": 0.55,
+    "rise": 1,
+    "tail": 1.55,
+    "beats": [
+     {
+      "u": 0.17,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.29,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.45,
+      "kind": "lift",
+      "mass": 0.7,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.56,
+      "kind": "pulse",
+      "mass": 0.9,
+      "dir": "crush",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.72,
+      "kind": "pulse",
+      "mass": 1,
+      "dir": "crush",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.9,
+      "kind": "slam",
+      "mass": 1.4,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.1,
+      "kneel"
+     ],
+     [
+      0.4,
+      "air"
+     ]
+    ],
+    "legacyDuration": 6.05,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 5.551115123125783e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "ribsunder",
+   "duration": 4.07,
+   "impact": 0.82,
+   "impactWall": 2.798,
+   "frames": 245,
+   "seconds": 4.083333333333333,
+   "impactFrame": 168,
+   "impactSeconds": 2.8,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.27697808857031503,
+   "stepAt": {
+    "frame": 153,
+    "u": 0.695,
+    "clock": 2.55,
+    "phys": false,
+    "from": [
+     0.28,
+     0.06,
+     1.16
+    ],
+    "to": [
+     0.32,
+     0.06,
+     0.88
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8028797796610081,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 4,
+   "gravitas": {
+    "pre": 2.798,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.25,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.72,
+      "kind": "strike",
+      "mass": 1,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.6,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 2.9,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "ribsunder",
+   "duration": 4.07,
+   "impact": 0.82,
+   "impactWall": 2.798,
+   "frames": 245,
+   "seconds": 4.083333333333333,
+   "impactFrame": 168,
+   "impactSeconds": 2.8,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.3630633748043349,
+   "stepAt": {
+    "frame": 156,
+    "u": 0.726,
+    "clock": 2.6,
+    "phys": false,
+    "from": [
+     0.46,
+     0.06,
+     0.24
+    ],
+    "to": [
+     0.39,
+     0.06,
+     -0.12
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8002560001859358,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 4,
+   "gravitas": {
+    "pre": 2.798,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.25,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.72,
+      "kind": "strike",
+      "mass": 1,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.6,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 2.9,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "black-anvil",
+   "duration": 4.18,
+   "impact": 0.82,
+   "impactWall": 2.915,
+   "frames": 251,
+   "seconds": 4.183333333333334,
+   "impactFrame": 175,
+   "impactSeconds": 2.9166666666666665,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.31233844291408464,
+   "stepAt": {
+    "frame": 158,
+    "u": 0.698,
+    "clock": 2.633,
+    "phys": false,
+    "from": [
+     -0.02,
+     0.06,
+     1.34
+    ],
+    "to": [
+     -0.05,
+     0.06,
+     1.03
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8084596927301425,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 2.915,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.18,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.55,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.73,
+      "kind": "slam",
+      "mass": 1.2,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.3,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 3.05,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "black-anvil",
+   "duration": 4.18,
+   "impact": 0.82,
+   "impactWall": 2.915,
+   "frames": 251,
+   "seconds": 4.183333333333334,
+   "impactFrame": 175,
+   "impactSeconds": 2.9166666666666665,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.3731399607918151,
+   "stepAt": {
+    "frame": 161,
+    "u": 0.733,
+    "clock": 2.683,
+    "phys": false,
+    "from": [
+     -0.19,
+     0.06,
+     0.17
+    ],
+    "to": [
+     -0.23,
+     0.06,
+     -0.2
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8065591285359976,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 2.915,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.18,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.55,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.73,
+      "kind": "slam",
+      "mass": 1.2,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.3,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 3.05,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "spinewheel",
+   "duration": 4.29,
+   "impact": 0.82,
+   "impactWall": 3.021,
+   "frames": 258,
+   "seconds": 4.3,
+   "impactFrame": 182,
+   "impactSeconds": 3.033333333333333,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.3687830306620105,
+   "stepAt": {
+    "frame": 180,
+    "u": 0.805,
+    "clock": 3,
+    "phys": true,
+    "from": [
+     0.22,
+     0.17,
+     -1.03
+    ],
+    "to": [
+     0.36,
+     0.11,
+     -0.69
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.7999463841361155,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 3.021,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.38,
+      "kind": "lift",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.55,
+      "kind": "throw",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.76,
+      "kind": "strike",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.5,
+      "prone"
+     ]
+    ],
+    "legacyDuration": 3.2,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "spinewheel",
+   "duration": 4.29,
+   "impact": 0.82,
+   "impactWall": 3.021,
+   "frames": 258,
+   "seconds": 4.3,
+   "impactFrame": 182,
+   "impactSeconds": 3.033333333333333,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.3779738327893414,
+   "stepAt": {
+    "frame": 168,
+    "u": 0.719,
+    "clock": 2.8,
+    "phys": false,
+    "from": [
+     1.35,
+     0.6,
+     -0.38
+    ],
+    "to": [
+     1.03,
+     0.58,
+     -0.58
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8044167361039545,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 3.021,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.38,
+      "kind": "lift",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.55,
+      "kind": "throw",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.76,
+      "kind": "strike",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.5,
+      "prone"
+     ]
+    ],
+    "legacyDuration": 3.2,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "hornfall",
+   "duration": 4.19,
+   "impact": 0.82,
+   "impactWall": 2.922,
+   "frames": 252,
+   "seconds": 4.2,
+   "impactFrame": 176,
+   "impactSeconds": 2.933333333333333,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.16892964691037227,
+   "stepAt": {
+    "frame": 13,
+    "u": 0.083,
+    "clock": 0.217,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.56
+    ],
+    "to": [
+     0,
+     0.06,
+     2.39
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0004683455203271466,
+   "contactAt": {
+    "frame": 66,
+    "u": 0.3606,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.25,
+     1.74,
+     0.72
+    ],
+    "actual": [
+     -0.25,
+     1.74,
+     0.72
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      0,
+      "head",
+      1
+     ],
+     [
+      1,
+      "head",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8012044267481936,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.922,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.42,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.6,
+      "kind": "lift",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.79,
+      "kind": "throw",
+      "mass": 1,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.2,
+      "kneel"
+     ],
+     [
+      0.6,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.1,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "hornfall",
+   "duration": 4.19,
+   "impact": 0.82,
+   "impactWall": 2.922,
+   "frames": 252,
+   "seconds": 4.2,
+   "impactFrame": 176,
+   "impactSeconds": 2.933333333333333,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.16892964691037227,
+   "stepAt": {
+    "frame": 13,
+    "u": 0.083,
+    "clock": 0.217,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.56
+    ],
+    "to": [
+     0,
+     0.06,
+     2.39
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0006767205884919067,
+   "contactAt": {
+    "frame": 56,
+    "u": 0.3244,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.4,
+     2.41,
+     1.13
+    ],
+    "actual": [
+     -0.4,
+     2.41,
+     1.13
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      0,
+      "head",
+      1
+     ],
+     [
+      1,
+      "head",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8017378759734077,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.922,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.42,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.6,
+      "kind": "lift",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.79,
+      "kind": "throw",
+      "mass": 1,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.2,
+      "kneel"
+     ],
+     [
+      0.6,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.1,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "ruinmaker",
+   "duration": 4.45,
+   "impact": 0.82,
+   "impactWall": 3.177,
+   "frames": 268,
+   "seconds": 4.466666666666667,
+   "impactFrame": 191,
+   "impactSeconds": 3.183333333333333,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.32899796893127486,
+   "stepAt": {
+    "frame": 30,
+    "u": 0.146,
+    "clock": 0.5,
+    "phys": false,
+    "from": [
+     -0.44,
+     0.06,
+     1.47
+    ],
+    "to": [
+     -0.46,
+     0.06,
+     1.14
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8025873390685339,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.4,
+    1.6,
+    2.2
+   ],
+   "severs": [
+    "arm0"
+   ],
+   "kicks": 5,
+   "gravitas": {
+    "pre": 3.177,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.18,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "fwd",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.38,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.69,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.76,
+      "kind": "strike",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": [
+     0.38,
+     "arm0"
+    ],
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.5,
+      "prone"
+     ]
+    ],
+    "legacyDuration": 3.25,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "ruinmaker",
+   "duration": 4.45,
+   "impact": 0.82,
+   "impactWall": 3.177,
+   "frames": 268,
+   "seconds": 4.466666666666667,
+   "impactFrame": 191,
+   "impactSeconds": 3.183333333333333,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.42105260002059447,
+   "stepAt": {
+    "frame": 181,
+    "u": 0.762,
+    "clock": 3.017,
+    "phys": false,
+    "from": [
+     0.26,
+     0.28,
+     -1.07
+    ],
+    "to": [
+     0.21,
+     0.23,
+     -1.48
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8003402234688886,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.4,
+    1.6,
+    2.2
+   ],
+   "severs": [
+    "arm0"
+   ],
+   "kicks": 5,
+   "gravitas": {
+    "pre": 3.177,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.18,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "fwd",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.38,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.69,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.76,
+      "kind": "strike",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": [
+     0.38,
+     "arm0"
+    ],
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.5,
+      "prone"
+     ]
+    ],
+    "legacyDuration": 3.25,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "crucible-hook",
+   "duration": 4.18,
+   "impact": 0.82,
+   "impactWall": 2.907,
+   "frames": 251,
+   "seconds": 4.183333333333334,
+   "impactFrame": 175,
+   "impactSeconds": 2.9166666666666665,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.292498875306818,
+   "stepAt": {
+    "frame": 73,
+    "u": 0.39,
+    "clock": 1.217,
+    "phys": false,
+    "from": [
+     0.07,
+     0.86,
+     1.4
+    ],
+    "to": [
+     0.12,
+     0.89,
+     1.11
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8000174174271231,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 4,
+   "gravitas": {
+    "pre": 2.907,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "up",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "up",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.62,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.73,
+      "kind": "strike",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.4,
+      "air"
+     ],
+     [
+      0.62,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 3,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "crucible-hook",
+   "duration": 4.18,
+   "impact": 0.82,
+   "impactWall": 2.907,
+   "frames": 251,
+   "seconds": 4.183333333333334,
+   "impactFrame": 175,
+   "impactSeconds": 2.9166666666666665,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.28609985083093004,
+   "stepAt": {
+    "frame": 73,
+    "u": 0.39,
+    "clock": 1.217,
+    "phys": false,
+    "from": [
+     0.07,
+     0.86,
+     1.4
+    ],
+    "to": [
+     0.1,
+     0.89,
+     1.12
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8004655364445016,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 4,
+   "gravitas": {
+    "pre": 2.907,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "up",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "up",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.62,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.73,
+      "kind": "strike",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.4,
+      "air"
+     ],
+     [
+      0.62,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 3,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "dragons-wake",
+   "duration": 4.17,
+   "impact": 0.82,
+   "impactWall": 2.901,
+   "frames": 251,
+   "seconds": 4.183333333333334,
+   "impactFrame": 175,
+   "impactSeconds": 2.9166666666666665,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.21757090748038227,
+   "stepAt": {
+    "frame": 14,
+    "u": 0.086,
+    "clock": 0.233,
+    "phys": false,
+    "from": [
+     0.31,
+     0.06,
+     2.41
+    ],
+    "to": [
+     0.41,
+     0.06,
+     2.22
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8051240299836038,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.901,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.38,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.59,
+      "kind": "strike",
+      "mass": 1,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ]
+    ],
+    "legacyDuration": 3.1,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "dragons-wake",
+   "duration": 4.17,
+   "impact": 0.82,
+   "impactWall": 2.901,
+   "frames": 251,
+   "seconds": 4.183333333333334,
+   "impactFrame": 175,
+   "impactSeconds": 2.9166666666666665,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.21757090748038227,
+   "stepAt": {
+    "frame": 14,
+    "u": 0.086,
+    "clock": 0.233,
+    "phys": false,
+    "from": [
+     0.31,
+     0.06,
+     2.41
+    ],
+    "to": [
+     0.41,
+     0.06,
+     2.22
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8645177595842606,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.901,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.38,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.59,
+      "kind": "strike",
+      "mass": 1,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ]
+    ],
+    "legacyDuration": 3.1,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "ember-pendulum",
+   "duration": 4.27,
+   "impact": 0.82,
+   "impactWall": 3.003,
+   "frames": 257,
+   "seconds": 4.283333333333333,
+   "impactFrame": 181,
+   "impactSeconds": 3.0166666666666666,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.2550270555387301,
+   "stepAt": {
+    "frame": 89,
+    "u": 0.413,
+    "clock": 1.483,
+    "phys": false,
+    "from": [
+     -0.41,
+     0.66,
+     0.1
+    ],
+    "to": [
+     -0.19,
+     0.66,
+     -0.03
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8022843436214999,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 4,
+   "gravitas": {
+    "pre": 3.003,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "fwd",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.41,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "up",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.73,
+      "kind": "strike",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": true,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.2,
+      "kneel"
+     ],
+     [
+      0.4,
+      "air"
+     ],
+     [
+      0.6,
+      "prone"
+     ]
+    ],
+    "legacyDuration": 3.3,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "ember-pendulum",
+   "duration": 4.27,
+   "impact": 0.82,
+   "impactWall": 3.003,
+   "frames": 257,
+   "seconds": 4.283333333333333,
+   "impactFrame": 181,
+   "impactSeconds": 3.0166666666666666,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.3298919188215552,
+   "stepAt": {
+    "frame": 165,
+    "u": 0.697,
+    "clock": 2.75,
+    "phys": false,
+    "from": [
+     -0.7,
+     0.33,
+     -0.78
+    ],
+    "to": [
+     -0.39,
+     0.28,
+     -0.88
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8003823308751598,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 4,
+   "gravitas": {
+    "pre": 3.003,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "fwd",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.41,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "up",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.73,
+      "kind": "strike",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": true,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.2,
+      "kneel"
+     ],
+     [
+      0.4,
+      "air"
+     ],
+     [
+      0.6,
+      "prone"
+     ]
+    ],
+    "legacyDuration": 3.3,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "searing-brand",
+   "duration": 3.87,
+   "impact": 0.82,
+   "impactWall": 2.603,
+   "frames": 233,
+   "seconds": 3.8833333333333333,
+   "impactFrame": 157,
+   "impactSeconds": 2.6166666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.28409692870147885,
+   "stepAt": {
+    "frame": 32,
+    "u": 0.187,
+    "clock": 0.533,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     1.43
+    ],
+    "to": [
+     0.07,
+     0.06,
+     1.15
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.001153741755452612,
+   "contactAt": {
+    "frame": 56,
+    "u": 0.3542,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.03,
+     1.98,
+     0.32
+    ],
+    "actual": [
+     -0.03,
+     1.98,
+     0.32
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      1,
+      "chest",
+      0.99
+     ]
+    ]
+   },
+   "maxFraming": 0.8319896416504171,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.603,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.6,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.42,
+      "kind": "lift",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.63,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "pulse",
+      "mass": 1.25,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.6,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 2.8,
+    "kill": "pulse"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "searing-brand",
+   "duration": 3.87,
+   "impact": 0.82,
+   "impactWall": 2.603,
+   "frames": 233,
+   "seconds": 3.8833333333333333,
+   "impactFrame": 157,
+   "impactSeconds": 2.6166666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.1747802965789365,
+   "stepAt": {
+    "frame": 32,
+    "u": 0.187,
+    "clock": 0.533,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     1.43
+    ],
+    "to": [
+     0.03,
+     0.06,
+     1.26
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0010042576193771031,
+   "contactAt": {
+    "frame": 35,
+    "u": 0.2252,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.12,
+     2.84,
+     0.27
+    ],
+    "actual": [
+     -0.12,
+     2.84,
+     0.27
+    ],
+    "strikes": [
+     [
+      1,
+      "chest",
+      "",
+      0.91
+     ]
+    ],
+    "contacts": [
+     [
+      1,
+      "chest",
+      0.99
+     ]
+    ]
+   },
+   "maxFraming": 0.8419563690101367,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.603,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.6,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.42,
+      "kind": "lift",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.63,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "pulse",
+      "mass": 1.25,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.6,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 2.8,
+    "kill": "pulse"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "ashfall",
+   "duration": 4.28,
+   "impact": 0.82,
+   "impactWall": 3.009,
+   "frames": 257,
+   "seconds": 4.283333333333333,
+   "impactFrame": 181,
+   "impactSeconds": 3.0166666666666666,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.33225490357797516,
+   "stepAt": {
+    "frame": 38,
+    "u": 0.161,
+    "clock": 0.633,
+    "phys": false,
+    "from": [
+     0.24,
+     0.06,
+     1.5
+    ],
+    "to": [
+     0.25,
+     0.06,
+     1.17
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.7999940838238222,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 3.009,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "up",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.4,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.61,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.3,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.2,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "ashfall",
+   "duration": 4.28,
+   "impact": 0.82,
+   "impactWall": 3.009,
+   "frames": 257,
+   "seconds": 4.283333333333333,
+   "impactFrame": 181,
+   "impactSeconds": 3.0166666666666666,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.385251797989785,
+   "stepAt": {
+    "frame": 38,
+    "u": 0.161,
+    "clock": 0.633,
+    "phys": false,
+    "from": [
+     0.24,
+     0.06,
+     1.5
+    ],
+    "to": [
+     0.22,
+     0.06,
+     1.12
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8002388128282644,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 3.009,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "up",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.4,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.61,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.3,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.2,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "hellmouth",
+   "duration": 4.47,
+   "impact": 0.82,
+   "impactWall": 3.205,
+   "frames": 269,
+   "seconds": 4.483333333333333,
+   "impactFrame": 193,
+   "impactSeconds": 3.216666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.20588933700834244,
+   "stepAt": {
+    "frame": 177,
+    "u": 0.717,
+    "clock": 2.95,
+    "phys": false,
+    "from": [
+     -0.15,
+     0.55,
+     1.5
+    ],
+    "to": [
+     -0.11,
+     0.45,
+     1.67
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.000500782478985558,
+   "contactAt": {
+    "frame": 179,
+    "u": 0.7404,
+    "type": "palm-contact",
+    "hand": 0,
+    "goal": [
+     0.16,
+     1.71,
+     0.34
+    ],
+    "actual": [
+     0.16,
+     1.71,
+     0.34
+    ],
+    "strikes": [
+     [
+      0,
+      "head",
+      "",
+      0.99
+     ],
+     [
+      1,
+      "head",
+      "",
+      0.99
+     ]
+    ],
+    "contacts": []
+   },
+   "maxFraming": 0.8047248593507859,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 3.205,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.62,
+      "kind": "lift",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.74,
+      "kind": "slam",
+      "mass": 1.2,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.2,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 3.4,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "hellmouth",
+   "duration": 4.47,
+   "impact": 0.82,
+   "impactWall": 3.205,
+   "frames": 269,
+   "seconds": 4.483333333333333,
+   "impactFrame": 193,
+   "impactSeconds": 3.216666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.22286437231043338,
+   "stepAt": {
+    "frame": 175,
+    "u": 0.694,
+    "clock": 2.917,
+    "phys": false,
+    "from": [
+     -0.26,
+     0.78,
+     1.85
+    ],
+    "to": [
+     -0.26,
+     0.67,
+     2.04
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.01859917028781899,
+   "contactAt": {
+    "frame": 179,
+    "u": 0.7404,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.38,
+     2.69,
+     0.72
+    ],
+    "actual": [
+     -0.39,
+     2.68,
+     0.73
+    ],
+    "strikes": [
+     [
+      0,
+      "head",
+      "",
+      0.99
+     ],
+     [
+      1,
+      "head",
+      "",
+      0.99
+     ]
+    ],
+    "contacts": []
+   },
+   "maxFraming": 0.803286924304663,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 3.205,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.62,
+      "kind": "lift",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.74,
+      "kind": "slam",
+      "mass": 1.2,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.2,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 3.4,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "vector-break",
+   "duration": 4.18,
+   "impact": 0.82,
+   "impactWall": 2.911,
+   "frames": 251,
+   "seconds": 4.183333333333334,
+   "impactFrame": 175,
+   "impactSeconds": 2.9166666666666665,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.05933702287651115,
+   "stepAt": {
+    "frame": 13,
+    "u": 0.075,
+    "clock": 0.217,
+    "phys": false,
+    "from": [
+     -0.05,
+     0.06,
+     2.91
+    ],
+    "to": [
+     -0.06,
+     0.06,
+     2.85
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.7989691102791066,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 2.911,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.63,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.6,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.15,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "vector-break",
+   "duration": 4.18,
+   "impact": 0.82,
+   "impactWall": 2.911,
+   "frames": 251,
+   "seconds": 4.183333333333334,
+   "impactFrame": 175,
+   "impactSeconds": 2.9166666666666665,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.05933702287651115,
+   "stepAt": {
+    "frame": 13,
+    "u": 0.075,
+    "clock": 0.217,
+    "phys": false,
+    "from": [
+     -0.05,
+     0.06,
+     2.91
+    ],
+    "to": [
+     -0.06,
+     0.06,
+     2.85
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8011320252061132,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 2.911,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.63,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.6,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.15,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "neural-guillotine",
+   "duration": 4.16,
+   "impact": 0.82,
+   "impactWall": 2.889,
+   "frames": 250,
+   "seconds": 4.166666666666667,
+   "impactFrame": 174,
+   "impactSeconds": 2.9,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.15498183928782971,
+   "stepAt": {
+    "frame": 14,
+    "u": 0.086,
+    "clock": 0.233,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.54
+    ],
+    "to": [
+     0,
+     0.06,
+     2.39
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0010661766348045707,
+   "contactAt": {
+    "frame": 38,
+    "u": 0.2262,
+    "type": "palm-contact",
+    "hand": 0,
+    "goal": [
+     0.14,
+     1.76,
+     0.76
+    ],
+    "actual": [
+     0.14,
+     1.75,
+     0.76
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      0,
+      "head",
+      1
+     ],
+     [
+      1,
+      "head",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8060653929891082,
+   "nonFinite": null,
+   "wounds": [
+    2.2,
+    2.4
+   ],
+   "severs": [
+    "head"
+   ],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.889,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.23,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.44,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.64,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.2,
+      "kneel"
+     ],
+     [
+      0.6,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.15,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "neural-guillotine",
+   "duration": 4.16,
+   "impact": 0.82,
+   "impactWall": 2.889,
+   "frames": 250,
+   "seconds": 4.166666666666667,
+   "impactFrame": 174,
+   "impactSeconds": 2.9,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.15498183928782971,
+   "stepAt": {
+    "frame": 14,
+    "u": 0.086,
+    "clock": 0.233,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.54
+    ],
+    "to": [
+     0,
+     0.06,
+     2.39
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0003293438413894698,
+   "contactAt": {
+    "frame": 39,
+    "u": 0.2338,
+    "type": "palm-contact",
+    "hand": 0,
+    "goal": [
+     0.25,
+     2.4,
+     1.05
+    ],
+    "actual": [
+     0.25,
+     2.4,
+     1.05
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      0,
+      "head",
+      1
+     ],
+     [
+      1,
+      "head",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8062139773191249,
+   "nonFinite": null,
+   "wounds": [
+    2.2,
+    2.4
+   ],
+   "severs": [
+    "head"
+   ],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 2.889,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.23,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.44,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.64,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.2,
+      "kneel"
+     ],
+     [
+      0.6,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.15,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "event-horizon",
+   "duration": 4.5,
+   "impact": 0.82,
+   "impactWall": 3.232,
+   "frames": 271,
+   "seconds": 4.516666666666667,
+   "impactFrame": 194,
+   "impactSeconds": 3.2333333333333334,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.06282112975188811,
+   "stepAt": {
+    "frame": 13,
+    "u": 0.072,
+    "clock": 0.217,
+    "phys": false,
+    "from": [
+     0.02,
+     0.06,
+     2.95
+    ],
+    "to": [
+     0.03,
+     0.06,
+     2.88
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8000529542959214,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 3.232,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.21,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.4,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.58,
+      "kind": "pulse",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.2,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.5,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "event-horizon",
+   "duration": 4.5,
+   "impact": 0.82,
+   "impactWall": 3.232,
+   "frames": 271,
+   "seconds": 4.516666666666667,
+   "impactFrame": 194,
+   "impactSeconds": 3.2333333333333334,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.06282112975188811,
+   "stepAt": {
+    "frame": 13,
+    "u": 0.072,
+    "clock": 0.217,
+    "phys": false,
+    "from": [
+     0.02,
+     0.06,
+     2.95
+    ],
+    "to": [
+     0.03,
+     0.06,
+     2.88
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.896526005399128,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 3.232,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.21,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.4,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.58,
+      "kind": "pulse",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.2,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.5,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "oblivion-press",
+   "duration": 4.26,
+   "impact": 0.82,
+   "impactWall": 2.995,
+   "frames": 256,
+   "seconds": 4.266666666666667,
+   "impactFrame": 180,
+   "impactSeconds": 3,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.054151057487084486,
+   "stepAt": {
+    "frame": 17,
+    "u": 0.08,
+    "clock": 0.283,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.78
+    ],
+    "to": [
+     0,
+     0.06,
+     2.73
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.7999659616235725,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 2.995,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.18,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.63,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.15,
+      "kneel"
+     ],
+     [
+      0.6,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.25,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "oblivion-press",
+   "duration": 4.26,
+   "impact": 0.82,
+   "impactWall": 2.995,
+   "frames": 256,
+   "seconds": 4.266666666666667,
+   "impactFrame": 180,
+   "impactSeconds": 3,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.20536025647054146,
+   "stepAt": {
+    "frame": 35,
+    "u": 0.183,
+    "clock": 0.583,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.35
+    ],
+    "to": [
+     0.02,
+     0.06,
+     2.56
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.7999352248828823,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 2.995,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.18,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.63,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.15,
+      "kneel"
+     ],
+     [
+      0.6,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.25,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "thought-spear",
+   "duration": 3.96,
+   "impact": 0.82,
+   "impactWall": 2.693,
+   "frames": 238,
+   "seconds": 3.966666666666667,
+   "impactFrame": 162,
+   "impactSeconds": 2.7,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.0785806412506958,
+   "stepAt": {
+    "frame": 12,
+    "u": 0.075,
+    "clock": 0.2,
+    "phys": false,
+    "from": [
+     -0.07,
+     0.06,
+     2.88
+    ],
+    "to": [
+     -0.09,
+     0.06,
+     2.8
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.7999978609449915,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 2.693,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "strike",
+      "mass": 0.6,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "lift",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.62,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.4,
+      "air"
+     ],
+     [
+      0.6,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 2.9,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "thought-spear",
+   "duration": 3.96,
+   "impact": 0.82,
+   "impactWall": 2.693,
+   "frames": 238,
+   "seconds": 3.966666666666667,
+   "impactFrame": 162,
+   "impactSeconds": 2.7,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.0785806412506958,
+   "stepAt": {
+    "frame": 12,
+    "u": 0.075,
+    "clock": 0.2,
+    "phys": false,
+    "from": [
+     -0.07,
+     0.06,
+     2.88
+    ],
+    "to": [
+     -0.09,
+     0.06,
+     2.8
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8004867534515306,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 2.693,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "strike",
+      "mass": 0.6,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "lift",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.62,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.4,
+      "air"
+     ],
+     [
+      0.6,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 2.9,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "widows-passage",
+   "duration": 4.27,
+   "impact": 0.82,
+   "impactWall": 3.005,
+   "frames": 257,
+   "seconds": 4.283333333333333,
+   "impactFrame": 181,
+   "impactSeconds": 3.0166666666666666,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.29586048451921726,
+   "stepAt": {
+    "frame": 40,
+    "u": 0.191,
+    "clock": 0.667,
+    "phys": false,
+    "from": [
+     1.24,
+     0.06,
+     0.67
+    ],
+    "to": [
+     0.98,
+     0.06,
+     0.52
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8038288152193251,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 3.005,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.21,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.62,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ]
+    ],
+    "legacyDuration": 3.2,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "widows-passage",
+   "duration": 4.27,
+   "impact": 0.82,
+   "impactWall": 3.005,
+   "frames": 257,
+   "seconds": 4.283333333333333,
+   "impactFrame": 181,
+   "impactSeconds": 3.0166666666666666,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.3820559971613482,
+   "stepAt": {
+    "frame": 39,
+    "u": 0.179,
+    "clock": 0.65,
+    "phys": false,
+    "from": [
+     1.5,
+     0.06,
+     0.85
+    ],
+    "to": [
+     1.17,
+     0.06,
+     0.66
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8021407110313375,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 3.005,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.21,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.62,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ]
+    ],
+    "legacyDuration": 3.2,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "reapers-toll",
+   "duration": 4.23,
+   "impact": 0.82,
+   "impactWall": 2.962,
+   "frames": 254,
+   "seconds": 4.233333333333333,
+   "impactFrame": 178,
+   "impactSeconds": 2.966666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.2948219646398175,
+   "stepAt": {
+    "frame": 40,
+    "u": 0.189,
+    "clock": 0.667,
+    "phys": false,
+    "from": [
+     -0.38,
+     0.06,
+     1.39
+    ],
+    "to": [
+     -0.39,
+     0.06,
+     1.09
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8078741292375087,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.4,
+    2.2
+   ],
+   "severs": [
+    "head"
+   ],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 2.962,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "fwd",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.64,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": [
+     0.815,
+     "head"
+    ],
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.4,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 3.15,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "reapers-toll",
+   "duration": 4.23,
+   "impact": 0.82,
+   "impactWall": 2.962,
+   "frames": 254,
+   "seconds": 4.233333333333333,
+   "impactFrame": 178,
+   "impactSeconds": 2.966666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.22184465434735726,
+   "stepAt": {
+    "frame": 40,
+    "u": 0.189,
+    "clock": 0.667,
+    "phys": false,
+    "from": [
+     -0.37,
+     0.06,
+     1.41
+    ],
+    "to": [
+     -0.4,
+     0.06,
+     1.19
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.8193775146238429,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.4,
+    2.2
+   ],
+   "severs": [
+    "head"
+   ],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 2.962,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "fwd",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.64,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": [
+     0.815,
+     "head"
+    ],
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.4,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 3.15,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "nightfall-covenant",
+   "duration": 4.42,
+   "impact": 0.82,
+   "impactWall": 3.154,
+   "frames": 266,
+   "seconds": 4.433333333333334,
+   "impactFrame": 190,
+   "impactSeconds": 3.1666666666666665,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.06813617464628156,
+   "stepAt": {
+    "frame": 15,
+    "u": 0.077,
+    "clock": 0.25,
+    "phys": false,
+    "from": [
+     -0.1,
+     0.06,
+     2.83
+    ],
+    "to": [
+     -0.12,
+     0.06,
+     2.77
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.7999861308938883,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 3.154,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.62,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.4,
+      "air"
+     ],
+     [
+      0.6,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 3.45,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "nightfall-covenant",
+   "duration": 4.42,
+   "impact": 0.82,
+   "impactWall": 3.154,
+   "frames": 266,
+   "seconds": 4.433333333333334,
+   "impactFrame": 190,
+   "impactSeconds": 3.1666666666666665,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.06813617464628156,
+   "stepAt": {
+    "frame": 15,
+    "u": 0.077,
+    "clock": 0.25,
+    "phys": false,
+    "from": [
+     -0.1,
+     0.06,
+     2.83
+    ],
+    "to": [
+     -0.12,
+     0.06,
+     2.77
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0,
+   "maxFraming": 0.7999975448005502,
+   "nonFinite": null,
+   "wounds": [
+    2.2
+   ],
+   "severs": [],
+   "kicks": 1,
+   "gravitas": {
+    "pre": 3.154,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.2,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.62,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.4,
+      "air"
+     ],
+     [
+      0.6,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 3.45,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "last-procession",
+   "duration": 4.44,
+   "impact": 0.82,
+   "impactWall": 3.166,
+   "frames": 267,
+   "seconds": 4.45,
+   "impactFrame": 190,
+   "impactSeconds": 3.1666666666666665,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.33631663076361423,
+   "stepAt": {
+    "frame": 37,
+    "u": 0.156,
+    "clock": 0.617,
+    "phys": false,
+    "from": [
+     -1.31,
+     0.06,
+     1.29
+    ],
+    "to": [
+     -1.21,
+     0.06,
+     0.97
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.00005903562571183279,
+   "contactAt": {
+    "frame": 150,
+    "u": 0.6005,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.32,
+     2.02,
+     -0.58
+    ],
+    "actual": [
+     -0.32,
+     2.02,
+     -0.58
+    ],
+    "strikes": [
+     [
+      1,
+      "chest",
+      "",
+      0.99
+     ]
+    ],
+    "contacts": []
+   },
+   "maxFraming": 0.8018008214973431,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 3.166,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.19,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.4,
+      "kind": "pulse",
+      "mass": 0.5,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.6,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ]
+    ],
+    "legacyDuration": 3.35,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "last-procession",
+   "duration": 4.44,
+   "impact": 0.82,
+   "impactWall": 3.166,
+   "frames": 267,
+   "seconds": 4.45,
+   "impactFrame": 190,
+   "impactSeconds": 3.1666666666666665,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.431085297681861,
+   "stepAt": {
+    "frame": 37,
+    "u": 0.156,
+    "clock": 0.617,
+    "phys": false,
+    "from": [
+     -1.31,
+     0.06,
+     1.29
+    ],
+    "to": [
+     -1.16,
+     0.06,
+     0.89
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.00044412447758256606,
+   "contactAt": {
+    "frame": 40,
+    "u": 0.1902,
+    "type": "palm-contact",
+    "hand": 0,
+    "goal": [
+     -0.24,
+     2.85,
+     0.2
+    ],
+    "actual": [
+     -0.24,
+     2.85,
+     0.2
+    ],
+    "strikes": [
+     [
+      0,
+      "chest",
+      "",
+      1
+     ]
+    ],
+    "contacts": []
+   },
+   "maxFraming": 0.8007770074098312,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 3.166,
+    "hold": 0.42,
+    "rise": 0.85,
+    "tail": 1.27,
+    "beats": [
+     {
+      "u": 0.19,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.4,
+      "kind": "pulse",
+      "mass": 0.5,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.6,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "strike",
+      "mass": 1.25,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ]
+    ],
+    "legacyDuration": 3.35,
+    "kill": "strike"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "titans-reckoning",
+   "duration": 6.46,
+   "impact": 0.82,
+   "impactWall": 4.91,
+   "frames": 388,
+   "seconds": 6.466666666666667,
+   "impactFrame": 295,
+   "impactSeconds": 4.916666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.28812600139354533,
+   "stepAt": {
+    "frame": 278,
+    "u": 0.729,
+    "clock": 4.633,
+    "phys": false,
+    "from": [
+     0.24,
+     0.06,
+     1.72
+    ],
+    "to": [
+     0.42,
+     0.06,
+     1.95
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.001296064275617551,
+   "contactAt": {
+    "frame": 154,
+    "u": 0.5022,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.29,
+     2.95,
+     1.22
+    ],
+    "actual": [
+     -0.29,
+     2.95,
+     1.22
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      0,
+      "head",
+      1
+     ],
+     [
+      1,
+      "head",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.804505440630924,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    3.2,
+    2.4
+   ],
+   "severs": [
+    "head"
+   ],
+   "kicks": 6,
+   "gravitas": {
+    "pre": 4.91,
+    "hold": 0.55,
+    "rise": 1,
+    "tail": 1.55,
+    "beats": [
+     {
+      "u": 0.13,
+      "kind": "strike",
+      "mass": 0.8,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.28,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.57,
+      "kind": "strike",
+      "mass": 1,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.68,
+      "kind": "lift",
+      "mass": 0.7,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.76,
+      "kind": "slam",
+      "mass": 1.2,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.4,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.1,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 5.1,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "sunless-coronation",
+   "duration": 6.67,
+   "impact": 0.82,
+   "impactWall": 5.121,
+   "frames": 401,
+   "seconds": 6.683333333333334,
+   "impactFrame": 308,
+   "impactSeconds": 5.133333333333334,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.2009342763537693,
+   "stepAt": {
+    "frame": 87,
+    "u": 0.292,
+    "clock": 1.45,
+    "phys": false,
+    "from": [
+     0.05,
+     0.06,
+     1.96
+    ],
+    "to": [
+     0.14,
+     0.06,
+     1.78
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.00015641928868385274,
+   "contactAt": {
+    "frame": 293,
+    "u": 0.7502,
+    "type": "palm-contact",
+    "hand": 0,
+    "goal": [
+     0.27,
+     3.11,
+     0.86
+    ],
+    "actual": [
+     0.27,
+     3.11,
+     0.86
+    ],
+    "strikes": [
+     [
+      0,
+      "head",
+      "",
+      1
+     ],
+     [
+      1,
+      "head",
+      "",
+      1
+     ]
+    ],
+    "contacts": []
+   },
+   "maxFraming": 0.8018937659507575,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    3.2,
+    2.4
+   ],
+   "severs": [
+    "arm"
+   ],
+   "kicks": 5,
+   "gravitas": {
+    "pre": 5.121,
+    "hold": 0.55,
+    "rise": 1,
+    "tail": 1.55,
+    "beats": [
+     {
+      "u": 0.14,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.29,
+      "kind": "strike",
+      "mass": 0.7,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.43,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.58,
+      "kind": "pulse",
+      "mass": 0.8,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.7,
+      "kind": "pulse",
+      "mass": 0.7,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.765,
+      "kind": "slam",
+      "mass": 1.2,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.4,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.1,
+      "kneel"
+     ],
+     [
+      0.5,
+      "air"
+     ],
+     [
+      0.7,
+      "kneel"
+     ]
+    ],
+    "legacyDuration": 5.35,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "worlds-end",
+   "duration": 6.34,
+   "impact": 0.82,
+   "impactWall": 4.788,
+   "frames": 381,
+   "seconds": 6.35,
+   "impactFrame": 288,
+   "impactSeconds": 4.8,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.13468658369854314,
+   "stepAt": {
+    "frame": 35,
+    "u": 0.093,
+    "clock": 0.583,
+    "phys": false,
+    "from": [
+     0,
+     0.06,
+     2.6
+    ],
+    "to": [
+     0,
+     0.06,
+     2.47
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0007578922860544583,
+   "contactAt": {
+    "frame": 77,
+    "u": 0.2751,
+    "type": "palm-contact",
+    "hand": 0,
+    "goal": [
+     0.31,
+     2.37,
+     1.16
+    ],
+    "actual": [
+     0.31,
+     2.37,
+     1.16
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      0,
+      "head",
+      1
+     ],
+     [
+      1,
+      "head",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.7999832265620034,
+   "nonFinite": null,
+   "wounds": [
+    3.2,
+    2.4
+   ],
+   "severs": [
+    "head"
+   ],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 4.788,
+    "hold": 0.55,
+    "rise": 1,
+    "tail": 1.55,
+    "beats": [
+     {
+      "u": 0.13,
+      "kind": "pulse",
+      "mass": 0.8,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.28,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.49,
+      "kind": "lift",
+      "mass": 0.7,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.56,
+      "kind": "pulse",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.69,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.4,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.1,
+      "kneel"
+     ],
+     [
+      0.45,
+      "air"
+     ]
+    ],
+    "legacyDuration": 5.2,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "ashen-dominion",
+   "duration": 8.76,
+   "impact": 0.91,
+   "impactWall": 7.207,
+   "frames": 526,
+   "seconds": 8.766666666666667,
+   "impactFrame": 433,
+   "impactSeconds": 7.216666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.27742491262065383,
+   "stepAt": {
+    "frame": 94,
+    "u": 0.197,
+    "clock": 1.567,
+    "phys": false,
+    "from": [
+     -0.02,
+     0.06,
+     1.56
+    ],
+    "to": [
+     -0.28,
+     0.06,
+     1.67
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.1503504439703092,
+   "contactAt": {
+    "frame": 403,
+    "u": 0.7452,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     0.53,
+     1.32,
+     -2.79
+    ],
+    "actual": [
+     0.64,
+     1.31,
+     -2.69
+    ],
+    "strikes": [
+     [
+      1,
+      null,
+      "",
+      0
+     ],
+     [
+      1,
+      null,
+      "",
+      1
+     ]
+    ],
+    "contacts": [
+     [
+      0,
+      null,
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.7999293215344969,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    2.4,
+    3.2
+   ],
+   "severs": [
+    "head"
+   ],
+   "kicks": 7,
+   "gravitas": {
+    "pre": 7.207,
+    "hold": 0.55,
+    "rise": 1,
+    "tail": 1.55,
+    "beats": [
+     {
+      "u": 0.13,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 0,
+      "leg": false
+     },
+     {
+      "u": 0.35,
+      "kind": "pulse",
+      "mass": 0.6,
+      "dir": "pulse",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.47,
+      "kind": "slam",
+      "mass": 1,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.6,
+      "kind": "strike",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.74,
+      "kind": "strike",
+      "mass": 1.1,
+      "dir": "down",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.91,
+      "kind": "slam",
+      "mass": 1.4,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.22,
+      "kneel"
+     ],
+     [
+      0.47,
+      "prone"
+     ]
+    ],
+    "legacyDuration": 6.8,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 5.551115123125783e-16,
+   "boss": true,
+   "ok": true
+  },
+  {
+   "id": "grave-stamp",
+   "duration": 4.06,
+   "impact": 0.82,
+   "impactWall": 3.012,
+   "frames": 244,
+   "seconds": 4.066666666666666,
+   "impactFrame": 181,
+   "impactSeconds": 3.0166666666666666,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.17198325586817703,
+   "stepAt": {
+    "frame": 80,
+    "u": 0.419,
+    "clock": 1.333,
+    "phys": false,
+    "from": [
+     0.48,
+     0.06,
+     -0.01
+    ],
+    "to": [
+     0.54,
+     0.06,
+     -0.17
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.00002617161413817668,
+   "contactAt": {
+    "frame": 49,
+    "u": 0.2317,
+    "type": "foot-contact",
+    "hand": 1,
+    "goal": [
+     -0.18,
+     0.44,
+     0.3
+    ],
+    "actual": [
+     -0.18,
+     0.44,
+     0.3
+    ],
+    "strikes": [
+     [
+      1,
+      null,
+      "leg",
+      0.99
+     ],
+     [
+      1,
+      null,
+      "leg",
+      0
+     ]
+    ],
+    "contacts": []
+   },
+   "maxFraming": 0.7999182654219144,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 3,
+   "gravitas": {
+    "pre": 3.012,
+    "hold": 0.35,
+    "rise": 0.7,
+    "tail": 1.0499999999999998,
+    "beats": [
+     {
+      "u": 0.22,
+      "kind": "strike",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.79,
+      "kind": "slam",
+      "mass": 1.2,
+      "dir": "down",
+      "hand": 1,
+      "leg": true
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.3,
+      "prone"
+     ]
+    ],
+    "legacyDuration": 3.15,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  },
+  {
+   "id": "rack-and-ruin",
+   "duration": 4.51,
+   "impact": 0.82,
+   "impactWall": 3.465,
+   "frames": 271,
+   "seconds": 4.516666666666667,
+   "impactFrame": 208,
+   "impactSeconds": 3.466666666666667,
+   "slowFrames": 1,
+   "finished": true,
+   "impacts": 1,
+   "maxRootStep": 0.14470101505938188,
+   "stepAt": {
+    "frame": 164,
+    "u": 0.615,
+    "clock": 2.733,
+    "phys": false,
+    "from": [
+     -0.11,
+     0.06,
+     1.12
+    ],
+    "to": [
+     -0.1,
+     0.06,
+     0.97
+    ]
+   },
+   "maxCore": 0,
+   "coreAt": null,
+   "maxContact": 0.0007116819510611817,
+   "contactAt": {
+    "frame": 47,
+    "u": 0.256,
+    "type": "palm-contact",
+    "hand": 1,
+    "goal": [
+     -0.16,
+     1.5,
+     0.51
+    ],
+    "actual": [
+     -0.16,
+     1.5,
+     0.51
+    ],
+    "strikes": [],
+    "contacts": [
+     [
+      0,
+      "head",
+      1
+     ],
+     [
+      1,
+      "head",
+      1
+     ]
+    ]
+   },
+   "maxFraming": 0.8016198459473614,
+   "nonFinite": null,
+   "wounds": [
+    1.6,
+    2.2
+   ],
+   "severs": [],
+   "kicks": 2,
+   "gravitas": {
+    "pre": 3.465,
+    "hold": 0.35,
+    "rise": 0.7,
+    "tail": 1.0499999999999998,
+    "beats": [
+     {
+      "u": 0.24,
+      "kind": "grip",
+      "mass": 0.5,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.47,
+      "kind": "lift",
+      "mass": 0.6,
+      "dir": null,
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.615,
+      "kind": "strike",
+      "mass": 1,
+      "dir": "fwd",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.73,
+      "kind": "throw",
+      "mass": 0.9,
+      "dir": "side",
+      "hand": 1,
+      "leg": false
+     },
+     {
+      "u": 0.82,
+      "kind": "slam",
+      "mass": 1.25,
+      "dir": "down",
+      "hand": 1,
+      "leg": false,
+      "kill": true
+     }
+    ],
+    "continuous": false,
+    "sever": null,
+    "victim": [
+     [
+      0,
+      "stand"
+     ],
+     [
+      0.27,
+      "air"
+     ]
+    ],
+    "legacyDuration": 3.7,
+    "kill": "slam"
+   },
+   "mono": true,
+   "end": 1,
+   "impactErr": 1.1102230246251565e-16,
+   "boss": false,
+   "ok": true
+  }
+ ],
+ "failures": 0
+}

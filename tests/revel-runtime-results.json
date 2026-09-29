@@ -1,0 +1,25 @@
+{
+  "whipCadence": "3 actual-contact stance cancels preserved",
+  "coup": {
+    "kind": "coup",
+    "killed": true,
+    "dist": 2.0041452608012857
+  },
+  "tap": {
+    "kind": "tap",
+    "killed": true,
+    "dist": 0.21365781200966824
+  },
+  "dressing": {
+    "fires": 42,
+    "worldMeshes": 300,
+    "worldGroups": 242,
+    "geometries": 141,
+    "obstacles": 70
+  },
+  "preserved": {
+    "executions": 49,
+    "powers": 24
+  },
+  "errors": []
+}

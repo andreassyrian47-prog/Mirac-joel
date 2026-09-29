@@ -1,0 +1,8 @@
+{
+  "rangeFacingDeduplication": "PASS",
+  "wallBlocking": "PASS",
+  "rend": "PASS",
+  "maxReservations": 2,
+  "fairnessRecipients": 10,
+  "geometry": "PASS"
+}

@@ -1,0 +1,177 @@
+{
+  "version": "0.9.0",
+  "authoredKeys": 244,
+  "performances": 23,
+  "errors": [],
+  "metrics": [
+    {
+      "name": "Soulbreaker",
+      "samples": 214,
+      "maxActorStep": 0.2447030925298077,
+      "maxActorJointStep": 0.4263595095826528,
+      "maxNdc": 0.6946023892454157
+    },
+    {
+      "name": "Grave Driver",
+      "samples": 211,
+      "maxActorStep": 0.10338557775314072,
+      "maxActorJointStep": 0.390600385402037,
+      "maxNdc": 0.717819966116463
+    },
+    {
+      "name": "Crown of Ruin",
+      "samples": 217,
+      "maxActorStep": 0.26799302198784936,
+      "maxActorJointStep": 0.45023094899033916,
+      "maxNdc": 0.81805127751684
+    },
+    {
+      "name": "Hell’s Guillotine",
+      "samples": 199,
+      "maxActorStep": 0.18103707310466666,
+      "maxActorJointStep": 0.9699217677690831,
+      "maxNdc": 0.8193652705024312
+    },
+    {
+      "name": "Tyrant’s Verdict",
+      "samples": 223,
+      "maxActorStep": 0.1569578264404032,
+      "maxActorJointStep": 0.42752071770378863,
+      "maxNdc": 0.7913156819933703
+    },
+    {
+      "name": "Furnace Heart",
+      "samples": 220,
+      "maxActorStep": 0.09902607761912208,
+      "maxActorJointStep": 0.3789231980765945,
+      "maxNdc": 0.7475864814914347
+    },
+    {
+      "name": "Cinder Spiral",
+      "samples": 310,
+      "maxActorStep": 0.17558281406224432,
+      "maxActorJointStep": 0.30000000000000215,
+      "maxNdc": 0.7401224560083287
+    },
+    {
+      "name": "Infernal Pillar",
+      "samples": 241,
+      "maxActorStep": 0.27991843841400244,
+      "maxActorJointStep": 0.5919161171435294,
+      "maxNdc": 0.807797022092072
+    },
+    {
+      "name": "Meteor Burial",
+      "samples": 250,
+      "maxActorStep": 0.347308104025277,
+      "maxActorJointStep": 0.5982232664834433,
+      "maxNdc": 0.818659561709
+    },
+    {
+      "name": "Ashen Cross",
+      "samples": 190,
+      "maxActorStep": 0.11453312648341019,
+      "maxActorJointStep": 0.30000000000000077,
+      "maxNdc": 0.6792301692490391
+    },
+    {
+      "name": "Pyre King",
+      "samples": 229,
+      "maxActorStep": 0.09509969715525557,
+      "maxActorJointStep": 0.5453478396073205,
+      "maxNdc": 0.6396024204259596
+    },
+    {
+      "name": "Mindbreaker",
+      "samples": 217,
+      "maxActorStep": 0.21596832641539782,
+      "maxActorJointStep": 0.34858750847725734,
+      "maxNdc": 0.8006243622223612
+    },
+    {
+      "name": "Gravity Coffin",
+      "samples": 238,
+      "maxActorStep": 0.09176324684272075,
+      "maxActorJointStep": 0.22147009884020868,
+      "maxNdc": 0.7603135588589659
+    },
+    {
+      "name": "Orbit of Ruin",
+      "samples": 243,
+      "maxActorStep": 0.07017867671547151,
+      "maxActorJointStep": 0.30000000000000165,
+      "maxNdc": 0.8294632888859391
+    },
+    {
+      "name": "Heaven’s Rejection",
+      "samples": 247,
+      "maxActorStep": 0.08846642973694685,
+      "maxActorJointStep": 0.27075703213861085,
+      "maxNdc": 0.8195118436521946
+    },
+    {
+      "name": "Rift Fold",
+      "samples": 226,
+      "maxActorStep": 0.09656752365176224,
+      "maxActorJointStep": 0.3109904493312033,
+      "maxNdc": 0.8294970735383848
+    },
+    {
+      "name": "Wraith Procession",
+      "samples": 243,
+      "maxActorStep": 0.20789576852460978,
+      "maxActorJointStep": 0.6780934290445364,
+      "maxNdc": 0.8329923548970217
+    },
+    {
+      "name": "Soul Sever",
+      "samples": 226,
+      "maxActorStep": 0.09656752365176224,
+      "maxActorJointStep": 0.28913998018495907,
+      "maxNdc": 0.7323708376268583
+    },
+    {
+      "name": "Pale Requiem",
+      "samples": 232,
+      "maxActorStep": 0.1361255716780594,
+      "maxActorJointStep": 0.30000000000000165,
+      "maxNdc": 0.8179652757907268
+    },
+    {
+      "name": "Tomb of Echoes",
+      "samples": 256,
+      "maxActorStep": 0.08524161146840648,
+      "maxActorJointStep": 0.20146008484589828,
+      "maxNdc": 0.8299674334918249
+    },
+    {
+      "name": "Kingbreaker",
+      "samples": 406,
+      "maxActorStep": 0.3720938355940965,
+      "maxActorJointStep": 0.6059913666753125,
+      "maxNdc": 0.7286262828340648
+    },
+    {
+      "name": "Throne of Cinders",
+      "samples": 454,
+      "maxActorStep": 0.21634473411883143,
+      "maxActorJointStep": 0.46956727264512593,
+      "maxNdc": 0.8199229723952496
+    },
+    {
+      "name": "Sovereign’s Ruin",
+      "samples": 430,
+      "maxActorStep": 0.09595158442419424,
+      "maxActorJointStep": 0.3000000000000025,
+      "maxNdc": 0.8203935203909801
+    }
+  ],
+  "notes": [
+    "60 Hz samples; distances are world units, not pixels.",
+    "The root continuity threshold is diagnostic, not a visual-quality certificate.",
+    "Camera measurements cover selected anatomy at the captured aspect ratio.",
+    "Victim root is re-anchored at physical handoff; its step is not used as a visual discontinuity measurement."
+  ],
+  "worstActorRootBefore": 1.8616703357136435,
+  "worstActorRootAfter": 0.3720938355940965
+}

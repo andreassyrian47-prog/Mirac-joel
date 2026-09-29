@@ -1,0 +1,13 @@
+import {chromium} from '@playwright/test';import fs from 'node:fs';
+const browser=await chromium.launch({headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader']}),p=await browser.newPage({viewport:{width:960,height:700}}),errors=[];p.on('pageerror',e=>errors.push(e.message));
+await p.addInitScript(()=>localStorage.setItem('hellbound-settings',JSON.stringify({quality:'low'})));await p.goto('http://localhost:5174/?test');await p.waitForFunction(()=>window.__hellbound?.testing);await p.evaluate(()=>{window.requestAnimationFrame=()=>0;window.originalRender=__hellbound.renderer.render.bind(__hellbound.renderer);__hellbound.renderer.render=()=>{};});await p.waitForTimeout(100);
+fs.mkdirSync('tests/dread-frames',{recursive:true});const results=[];
+for(const id of ['ashen-dominion','grave-stamp','rack-and-ruin']){
+ await p.evaluate(id=>__hellbound.testing.preview(id),id);
+ const result=await p.evaluate(()=>{const t=__hellbound.testing,duration=__hellbound.state.execution.duration;let frames=[],maxError=0,maxOverlap=0,maxStep=0,prev=null,events=[];for(let i=0;i<Math.ceil(duration*60)+4;i++){t.advanceExecution(1/60);const f=t.executionSnapshot();if(!f)break;if(prev)maxStep=Math.max(maxStep,Math.hypot(f.actor[0]-prev[0],f.actor[2]-prev[2]));prev=f.actor;maxOverlap=Math.max(maxOverlap,f.coreOverlap);for(const c of f.grips)if(c.weight>.99)maxError=Math.max(maxError,c.error);events=f.events;if(i%12===0)frames.push({t:f.t,u:f.t/duration,actor:f.actor,victim:f.victim,grips:f.grips,overlap:f.coreOverlap,phase:f.phase});}return {frames,maxError,maxOverlap,maxStep,events,finished:!__hellbound.state.finisher};});results.push({id,...result});console.log(id,JSON.stringify({...result,frames:undefined}));
+ for(const u of id==='ashen-dominion'?[.13,.35,.48,.60,.74,.88]:id==='grave-stamp'?[.22,.48,.7,.79]:[.23,.48,.615,.78]){
+  const image=await p.evaluate(({id,u})=>{const t=__hellbound.testing;t.preview(id);t.advanceExecution(__hellbound.state.execution.duration*u);__hellbound.renderer.render=originalRender;const img=t.executionStudyFrame();__hellbound.renderer.render=()=>{};return img;},{id,u});fs.writeFileSync(`tests/dread-frames/${id}-${u}.png`,Buffer.from(image.split(',')[1],'base64'));
+ }
+}
+await p.evaluate(()=>{__hellbound.testing.startMode('training');__hellbound.testing.trainingSmall();__hellbound.renderer.render=originalRender;});const fiend=await p.evaluate(()=>__hellbound.testing.actorFrame(0));fs.writeFileSync('tests/dread-frames/fiend.png',Buffer.from(fiend.image.split(',')[1],'base64'));
+fs.writeFileSync('tests/dread-review-results.json',JSON.stringify({errors,results},null,2));console.log('errors',errors);await browser.close();

@@ -1,0 +1,71 @@
+{
+  "stats": [
+    {
+      "spec": {
+        "title": "REST / side view",
+        "kind": "idle",
+        "speed": 0,
+        "seconds": 1
+      },
+      "finite": true,
+      "minHip": 1.2239999999988722,
+      "maxHip": 1.2239999999999998,
+      "maxSupportKnee": 12.484582904366361,
+      "medianSupportKnee": 11.55211616220932
+    },
+    {
+      "spec": {
+        "title": "WALK / 2.2 units per second",
+        "kind": "walk",
+        "speed": 2.2,
+        "seconds": 2
+      },
+      "finite": true,
+      "minHip": 1.1303920116554673,
+      "maxHip": 1.2228488167042222,
+      "maxSupportKnee": 48.586331415844064,
+      "medianSupportKnee": 24.778498469667678
+    },
+    {
+      "spec": {
+        "title": "RUN / 6 units per second",
+        "kind": "walk",
+        "speed": 6,
+        "seconds": 2
+      },
+      "finite": true,
+      "minHip": 1.1492800382338104,
+      "maxHip": 1.2069200166033092,
+      "maxSupportKnee": 39.16059856098293,
+      "medianSupportKnee": 28.95869993907971
+    },
+    {
+      "spec": {
+        "title": "SPRINT / 8.8 units per second",
+        "kind": "sprint",
+        "speed": 8.8,
+        "seconds": 2
+      },
+      "finite": true,
+      "minHip": 1.1311753696913294,
+      "maxHip": 1.1957103780547063,
+      "maxSupportKnee": 42.81068651594373,
+      "medianSupportKnee": 31.117344908333955
+    },
+    {
+      "spec": {
+        "title": "RUN / gameplay viewing angle",
+        "kind": "walk",
+        "speed": 6,
+        "seconds": 2,
+        "rear": true
+      },
+      "finite": true,
+      "minHip": 1.149280038238611,
+      "maxHip": 1.2069200166033147,
+      "maxSupportKnee": 39.16059856094581,
+      "medianSupportKnee": 28.958699925442154
+    }
+  ],
+  "errors": []
+}
