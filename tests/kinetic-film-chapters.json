@@ -1,0 +1,38 @@
+[
+  {
+    "title": "A living resting pose",
+    "start": 0
+  },
+  {
+    "title": "Prowl / heel-to-toe walking",
+    "start": 1.2
+  },
+  {
+    "title": "Run / opposite arm drive",
+    "start": 4
+  },
+  {
+    "title": "Sprint / compressed support",
+    "start": 6
+  },
+  {
+    "title": "Brake / planted turn",
+    "start": 8.2
+  },
+  {
+    "title": "Lateral footwork",
+    "start": 9.9
+  },
+  {
+    "title": "Hellfire Lance / load and release",
+    "start": 11.9
+  },
+  {
+    "title": "Cinder Mine / low placement",
+    "start": 12.9
+  },
+  {
+    "title": "Null Sphere / expanding control",
+    "start": 13.9
+  }
+]

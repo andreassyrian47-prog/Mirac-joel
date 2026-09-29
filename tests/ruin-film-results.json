@@ -1,0 +1,13 @@
+{
+  "frames": 212,
+  "seconds": 7.066666666666666,
+  "fps": 30,
+  "simulationHz": 60,
+  "viewport": [
+    720,
+    450
+  ],
+  "quality": "low",
+  "note": "Fixed-step canvas frame study, not a realtime capture or performance benchmark; no DOM HUD or audio.",
+  "errors": []
+}

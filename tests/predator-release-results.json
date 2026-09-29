@@ -1,0 +1,34 @@
+{
+  "version": "0.14.0",
+  "standaloneBytes": 971717,
+  "sha256": "52146f32af4a9fafd44aa4d49da744d6f96f0f32d84a5f931763ad3ad44e0a6e",
+  "executionCases": 86,
+  "maxCoreOverlap": 0,
+  "maxContactResidual": 0.05616565283277418,
+  "stagingCases": 94,
+  "timingCases": 46,
+  "accentedTimelines": 33,
+  "carryHandoff": {
+    "heldFrames": 60,
+    "maxError": 1.831026719408895e-15,
+    "release": {
+      "clock": 2.0999999999999974,
+      "gap": 0.016666666666666607,
+      "maxAnatomyStep": 0.16821645827865006
+    },
+    "ended": true
+  },
+  "standalone": {
+    "externalHTTPRequests": 0,
+    "errors": []
+  },
+  "errors": [],
+  "productionUI": "PASS",
+  "film": {
+    "seconds": 20,
+    "frames": 600,
+    "width": 640,
+    "height": 466,
+    "chapterSeek": "PASS"
+  }
+}

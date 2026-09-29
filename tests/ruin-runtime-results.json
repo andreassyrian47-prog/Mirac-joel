@@ -1,0 +1,17 @@
+{
+  "singleHitWindow": true,
+  "rendRupture": true,
+  "trainingParry": true,
+  "groupDrill": true,
+  "maxReservations": 2,
+  "observedEnemyStates": [
+    "chase",
+    "windup",
+    "strike",
+    "recover"
+  ],
+  "bossSweep": true,
+  "preservedExecutions": 49,
+  "preservedPowers": 24,
+  "errors": []
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "action": "light",
+    "finite": true,
+    "atBoundary": 0.07913782823771232,
+    "overall": 0.2616054479532662,
+    "settled": true
+  },
+  {
+    "action": "cast",
+    "finite": true,
+    "atBoundary": 0.0771312800534983,
+    "overall": 0.2616054479532659,
+    "settled": true
+  },
+  {
+    "action": "parry",
+    "finite": true,
+    "atBoundary": 0.08382032523222094,
+    "overall": 0.26160544795326623,
+    "settled": true
+  },
+  {
+    "action": "dodge",
+    "finite": true,
+    "atBoundary": 0.19320501650800656,
+    "overall": 0.2616054479532668,
+    "settled": true
+  },
+  {
+    "action": "aerial",
+    "finite": true,
+    "atBoundary": 0.0907389713149782,
+    "overall": 0.26160544795326646,
+    "settled": true
+  },
+  {
+    "action": "slam",
+    "finite": true,
+    "atBoundary": 0.1335480544572602,
+    "overall": 0.4337058916757502,
+    "settled": true
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "name": "Cinder Spiral",
+      "grips": 142,
+      "maxContact": 0.0014134936912195825,
+      "goreMax": 0
+    },
+    {
+      "name": "Kingbreaker",
+      "grips": 165,
+      "maxContact": 0.03638042910032052,
+      "goreMax": 1
+    },
+    {
+      "name": "Throne of Cinders",
+      "grips": 135,
+      "maxContact": 0.0002834991250440112,
+      "goreMax": 1
+    },
+    {
+      "name": "Sovereign’s Ruin",
+      "grips": 66,
+      "maxContact": 0.019287812814190935,
+      "goreMax": 1
+    }
+  ],
+  "errors": []
+}

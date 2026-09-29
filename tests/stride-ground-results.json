@@ -1,0 +1,89 @@
+{
+  "results": [
+    {
+      "name": "idle",
+      "finite": true,
+      "maxSlide": 2.6945789820192466e-16,
+      "maxError": 1.1461574128654987e-15,
+      "maxFootStep": 1.2219547806213713e-15,
+      "minSole": -7.494005416219807e-16,
+      "contacts": 418,
+      "pairs": 418,
+      "bodyRange": 0.024456474325649014,
+      "cycles": 0
+    },
+    {
+      "name": "walk",
+      "finite": true,
+      "maxSlide": 3.5596458096434965e-15,
+      "maxError": 2.7386751496703017e-15,
+      "maxFootStep": 0.1523273667992236,
+      "minSole": -6.38378239159465e-16,
+      "contacts": 261,
+      "pairs": 252,
+      "bodyRange": 0.040961922725883726,
+      "cycles": 5.065018315018314
+    },
+    {
+      "name": "jog",
+      "finite": true,
+      "maxSlide": 1.0686437291370102e-14,
+      "maxError": 1.0686761685851581e-14,
+      "maxFootStep": 0.24333048876383667,
+      "minSole": -6.38378239159465e-16,
+      "contacts": 150,
+      "pairs": 139,
+      "bodyRange": 0.1558465320714959,
+      "cycles": 6.7686516152406195
+    },
+    {
+      "name": "sprint",
+      "finite": true,
+      "maxSlide": 1.067893742893049e-14,
+      "maxError": 7.121239116308986e-15,
+      "maxFootStep": 0.33127264787604377,
+      "minSole": -7.494005416219807e-16,
+      "contacts": 121,
+      "pairs": 108,
+      "bodyRange": 0.16716005958161118,
+      "cycles": 7.998305334512243
+    },
+    {
+      "name": "strafe",
+      "finite": true,
+      "maxSlide": 7.107378653578542e-15,
+      "maxError": 5.361138696028797e-15,
+      "maxFootStep": 0.1702417566542877,
+      "minSole": -6.38378239159465e-16,
+      "contacts": 152,
+      "pairs": 142,
+      "bodyRange": 0.124602977024586,
+      "cycles": 5.77753303964758
+    },
+    {
+      "name": "backward",
+      "finite": true,
+      "maxSlide": 7.110846302088116e-15,
+      "maxError": 3.621544272996959e-15,
+      "maxFootStep": 0.23324134274767636,
+      "minSole": -6.38378239159465e-16,
+      "contacts": 255,
+      "pairs": 242,
+      "bodyRange": 0.09709484903336252,
+      "cycles": 7.957574662259656
+    },
+    {
+      "name": "turn-stop",
+      "finite": true,
+      "maxSlide": 2.6645352591003757e-15,
+      "maxError": 1.8244937149463952e-15,
+      "maxFootStep": 0.23205536837217883,
+      "minSole": -8.604228440844963e-16,
+      "contacts": 319,
+      "pairs": 311,
+      "bodyRange": 0.056626387583387006,
+      "cycles": 2.0748361173679215
+    }
+  ],
+  "errors": []
+}

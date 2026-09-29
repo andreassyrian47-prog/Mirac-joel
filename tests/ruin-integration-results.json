@@ -1,0 +1,34 @@
+{
+  "modes": [
+    {
+      "mode": "survival",
+      "foes": 7
+    },
+    {
+      "mode": "explore",
+      "foes": 3
+    },
+    {
+      "mode": "boss",
+      "foes": 1
+    },
+    {
+      "mode": "training",
+      "foes": 1
+    }
+  ],
+  "actualInputSequence": [
+    "move",
+    "light",
+    "dodge",
+    "parry",
+    "power",
+    "small execution",
+    "grimoire",
+    "menu"
+  ],
+  "timings": {
+    "note": "Rendering benchmark separated after a stress-test browser crash; no performance acceptance claim."
+  },
+  "errors": []
+}

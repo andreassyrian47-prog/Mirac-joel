@@ -1,0 +1,62 @@
+{
+  "chapters": [
+    {
+      "title": "Prowl / side",
+      "start": 0.0,
+      "end": 2.5,
+      "first": 0,
+      "count": 75
+    },
+    {
+      "title": "Prowl / rear",
+      "start": 2.5,
+      "end": 5.0,
+      "first": 75,
+      "count": 75
+    },
+    {
+      "title": "Grave Driver",
+      "start": 5.0,
+      "end": 7.9,
+      "first": 150,
+      "count": 87
+    },
+    {
+      "title": "Hell\u2019s Guillotine",
+      "start": 7.9,
+      "end": 10.633333333333333,
+      "first": 237,
+      "count": 82
+    },
+    {
+      "title": "Furnace Heart",
+      "start": 10.633333333333333,
+      "end": 13.633333333333333,
+      "first": 319,
+      "count": 90
+    },
+    {
+      "title": "Gravity Coffin",
+      "start": 13.633333333333333,
+      "end": 16.9,
+      "first": 409,
+      "count": 98
+    },
+    {
+      "title": "Soul Sever",
+      "start": 16.9,
+      "end": 20.0,
+      "first": 507,
+      "count": 93
+    }
+  ],
+  "frames": 600,
+  "fps": 30,
+  "seconds": 20.0,
+  "size": [
+    640,
+    466
+  ],
+  "verifiedPNGFrames": 600,
+  "captureNote": "Five complete finisher chapters and two complete prowl chapters. Optional sixth finisher capture timed out; it is not included."
+}

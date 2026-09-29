@@ -1,0 +1,18 @@
+{
+  "name": "hellbound",
+  "version": "0.20.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "standalone": "npm run build && python3 scripts/package-html.py"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "vite": "^7.1.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}

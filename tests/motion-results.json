@@ -1,0 +1,477 @@
+{
+  "results": [
+    {
+      "spec": {
+        "kind": "idle",
+        "duration": 3
+      },
+      "frames": 181,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "walk",
+        "duration": 3,
+        "speed": 6
+      },
+      "frames": 181,
+      "contacts": 119,
+      "stationaryPairs": 110,
+      "maxPlantError": 5.3854400208818836e-15,
+      "maxSlide": 7.147801729532276e-15
+    },
+    {
+      "spec": {
+        "kind": "sprint",
+        "duration": 3,
+        "speed": 8.8
+      },
+      "frames": 181,
+      "contacts": 114,
+      "stationaryPairs": 101,
+      "maxPlantError": 7.160723346098895e-15,
+      "maxSlide": 1.0699837398676224e-14
+    },
+    {
+      "spec": {
+        "kind": "strafe",
+        "duration": 3,
+        "speed": 4.2
+      },
+      "frames": 181,
+      "contacts": 114,
+      "stationaryPairs": 108,
+      "maxPlantError": 3.580361673049448e-15,
+      "maxSlide": 5.329359630937608e-15
+    },
+    {
+      "spec": {
+        "kind": "light",
+        "step": 1,
+        "duration": 0.49
+      },
+      "frames": 30,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "light",
+        "step": 2,
+        "duration": 0.52
+      },
+      "frames": 32,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "light",
+        "step": 3,
+        "duration": 0.68
+      },
+      "frames": 41,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "light",
+        "step": 4,
+        "duration": 0.82
+      },
+      "frames": 50,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "heavy",
+        "duration": 1
+      },
+      "frames": 60,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cleave",
+        "duration": 1
+      },
+      "frames": 60,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "stomp",
+        "duration": 1
+      },
+      "frames": 60,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "slam",
+        "duration": 1
+      },
+      "frames": 60,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "charged",
+        "duration": 1
+      },
+      "frames": 60,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "lunge",
+        "duration": 1
+      },
+      "frames": 60,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "aerial",
+        "duration": 1
+      },
+      "frames": 60,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "parry",
+        "duration": 1
+      },
+      "frames": 60,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "charge",
+        "duration": 1
+      },
+      "frames": 60,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "tether",
+        "duration": 1
+      },
+      "frames": 60,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "ascend",
+        "duration": 1
+      },
+      "frames": 60,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "fireDash",
+        "duration": 1
+      },
+      "frames": 60,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "dodge",
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "duration": 0.46
+      },
+      "frames": 28,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "dodge",
+        "direction": [
+          0,
+          0,
+          -1
+        ],
+        "duration": 0.46
+      },
+      "frames": 28,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "dodge",
+        "direction": [
+          -1,
+          0,
+          0
+        ],
+        "duration": 0.46
+      },
+      "frames": 28,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "dodge",
+        "direction": [
+          1,
+          0,
+          0
+        ],
+        "duration": 0.46
+      },
+      "frames": 28,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 0,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 1,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 2,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 3,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 4,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 5,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 6,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 7,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 8,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 9,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 10,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 11,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 12,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 13,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    },
+    {
+      "spec": {
+        "kind": "cast",
+        "powerIndex": 14,
+        "duration": 0.85
+      },
+      "frames": 51,
+      "contacts": 0,
+      "stationaryPairs": 0,
+      "maxPlantError": 0,
+      "maxSlide": 0
+    }
+  ],
+  "maxTransitionStep": 0.2563233919478447,
+  "errors": []
+}

@@ -1,0 +1,229 @@
+{
+  "results": [
+    {
+      "hz": 30,
+      "speed": 2.2,
+      "finite": true,
+      "slide": 2.6651134375294657e-15,
+      "error": 1.8126324738138794e-15,
+      "contacts": 92
+    },
+    {
+      "hz": 30,
+      "speed": 6,
+      "finite": true,
+      "slide": 7.108895957933346e-15,
+      "error": 3.595498874802339e-15,
+      "contacts": 53
+    },
+    {
+      "hz": 30,
+      "speed": 8.8,
+      "finite": true,
+      "slide": 1.0672587275020415e-14,
+      "error": 7.12951004377199e-15,
+      "contacts": 43
+    },
+    {
+      "hz": 60,
+      "speed": 2.2,
+      "finite": true,
+      "slide": 2.7012892057857034e-15,
+      "error": 2.6710325505294912e-15,
+      "contacts": 185
+    },
+    {
+      "hz": 60,
+      "speed": 6,
+      "finite": true,
+      "slide": 7.106294666405892e-15,
+      "error": 7.124700018823635e-15,
+      "contacts": 106
+    },
+    {
+      "hz": 60,
+      "speed": 8.8,
+      "finite": true,
+      "slide": 1.067893742893049e-14,
+      "error": 7.121239116308986e-15,
+      "contacts": 87
+    },
+    {
+      "hz": 120,
+      "speed": 2.2,
+      "finite": true,
+      "slide": 2.6852712547870858e-15,
+      "error": 2.6698786321040957e-15,
+      "contacts": 370
+    },
+    {
+      "hz": 120,
+      "speed": 6,
+      "finite": true,
+      "slide": 1.0659441999608837e-14,
+      "error": 7.183494731531014e-15,
+      "contacts": 213
+    },
+    {
+      "hz": 120,
+      "speed": 8.8,
+      "finite": true,
+      "slide": 1.4214757307157084e-14,
+      "error": 7.12951004377199e-15,
+      "contacts": 174
+    }
+  ],
+  "clips": [
+    {
+      "kind": "crusher",
+      "finite": true,
+      "delta": 0.8501155439005414
+    },
+    {
+      "kind": "riftstrike",
+      "finite": true,
+      "delta": 0.6195717686430574
+    },
+    {
+      "kind": "flowburst",
+      "finite": true,
+      "delta": 0.5330057466661632
+    },
+    {
+      "kind": "enemystep",
+      "finite": true,
+      "delta": 0.6512970127290671
+    },
+    {
+      "kind": "phoenix",
+      "finite": true,
+      "delta": 1.230895245047111
+    },
+    {
+      "kind": "guardbreak",
+      "finite": true,
+      "delta": 0.5085806640407964
+    },
+    {
+      "kind": "sweep",
+      "finite": true,
+      "delta": 0.5870594960909632
+    },
+    {
+      "kind": "hook",
+      "finite": true,
+      "delta": 0.56680152307872
+    },
+    {
+      "kind": "knee",
+      "finite": true,
+      "delta": 0.7526495402714068
+    },
+    {
+      "kind": "groundstrike",
+      "finite": true,
+      "delta": 0.7232204645180982
+    },
+    {
+      "kind": "riposte",
+      "finite": true,
+      "delta": 0.6237927520657442
+    },
+    {
+      "kind": "guard",
+      "finite": true,
+      "delta": 0.011484177534331064
+    },
+    {
+      "kind": "getup",
+      "finite": true,
+      "delta": 0.7505957346235124
+    },
+    {
+      "kind": "light1",
+      "finite": true,
+      "delta": 0.5451581373913196
+    },
+    {
+      "kind": "light2",
+      "finite": true,
+      "delta": 0.5451581373913196
+    },
+    {
+      "kind": "light3",
+      "finite": true,
+      "delta": 0.642218753810071
+    },
+    {
+      "kind": "light4",
+      "finite": true,
+      "delta": 0.8501155439005414
+    },
+    {
+      "kind": "heavy",
+      "finite": true,
+      "delta": 0.8696037821205786
+    },
+    {
+      "kind": "cleave",
+      "finite": true,
+      "delta": 0.5330057466661632
+    },
+    {
+      "kind": "stomp",
+      "finite": true,
+      "delta": 0.7362647666387897
+    },
+    {
+      "kind": "slam",
+      "finite": true,
+      "delta": 0.8755669176296832
+    },
+    {
+      "kind": "charged",
+      "finite": true,
+      "delta": 0.8501155439005414
+    },
+    {
+      "kind": "lunge",
+      "finite": true,
+      "delta": 0.6079705117066527
+    },
+    {
+      "kind": "aerial",
+      "finite": true,
+      "delta": 0.6511601140304284
+    },
+    {
+      "kind": "parry",
+      "finite": true,
+      "delta": 0.4720228752210848
+    },
+    {
+      "kind": "charge",
+      "finite": true,
+      "delta": 0.5481195186372683
+    },
+    {
+      "kind": "dodge",
+      "finite": true,
+      "delta": 0.5443554638670127
+    },
+    {
+      "kind": "fireDash",
+      "finite": true,
+      "delta": 0.5443554638670127
+    },
+    {
+      "kind": "tether",
+      "finite": true,
+      "delta": 0.6113546499609952
+    },
+    {
+      "kind": "ascend",
+      "finite": true,
+      "delta": 0.4876937000179076
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,29 @@
+{
+  "results": {
+    "action": {
+      "min": 43.00632109572207,
+      "max": 59.30219393283777,
+      "framing": 0.7999830297372886,
+      "phases": [
+        "CONTACT",
+        "CONTROL",
+        "RELEASE",
+        "AFTERMATH"
+      ],
+      "restored": true
+    },
+    "steady": {
+      "min": 51.00000000000001,
+      "max": 54.95944783168391,
+      "framing": 0.7999845259428086,
+      "phases": [
+        "CONTACT",
+        "CONTROL",
+        "RELEASE",
+        "AFTERMATH"
+      ],
+      "restored": true
+    }
+  },
+  "errors": []
+}
